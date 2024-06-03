@@ -3849,14 +3849,14 @@
             ]
         },
         "participantsUpdate": {
-            "texto1": "👋 ¡نوررت/a!\n@user",
-            "texto2": "👋 ¡هلوو luego!\n@user",
-            "texto3": "*[ ℹ️ ] @user Fue promovido a administrador.*",
-            "texto4": "*[ ℹ️ ] @user Fue degradado de administrador.*",
-            "texto5": "*[ ℹ️ ] La descripción del grupo ha sido modificada.*",
-            "texto6": "*[ ℹ️ ] El nombre del grupo ha sido modificado.*",
-            "texto7": "*[ ℹ️ ] Se ha cambiado la foto de perfil del grupo.*",
-            "texto8": "*[ ℹ️ ] El enlace de invitación al grupo ha sido restablecido.*"
+            "texto1": "*❮ ❗️@user مرحبا بك معنا┃✜❯\n\n@subject┃🎖┃ اقرأ وصف المجموعة*\n*@desc✓*",
+            "texto2": "@user *❮ 👋🏻 كان بلا فائدة┃✜❯*",
+            "texto3": "*↞@user اصبح مشرف ✓┃🚫┃┊*",
+            "texto4": "*↞@user تم تنزيله من مشرف الى عضو✓┃🚫┃┊*",
+            "texto5": "*↞تم تعديل وصف المجموعه✓┃🚫┃┊*\n\n*الوصف الجديد↞* @desc✓",
+            "texto6": "*↞تم تعديل اسم المجموعه✓┃🚫┃┊*\n*الاسم الجديد↞* @subject✓",
+            "texto7": "*↞تم تعديل صورة المجموعه✓┃🚫┃┊*",
+            "texto8": "*↞تم تحديث رابط دخول المجموعه✓┃🚫┃┊*\n*الرابط الجديد↞* @revoke✓"
         },
         "deleteUpdate": {
             "texto1": [
