@@ -11,32 +11,12 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['967773685143', '👑 Mystic - Creador 👑', true],
-  ['967773685143', '💫 Mystic - Collaborator 2 💫', true],
-  ['967773685143', '💫 Mystic - Collaborator 3 💫', true],
-  ['967773685143', '💫 Mystic - Collaborator 4 💫', true],
-  ['967773685143', '💫 Mystic - Collaborator 5 💫', true],
-  ['967773685143', '💫 Mystic - Collaborator 6 💫', true],
-  ['967773685143', '💫 Mystic - Rey Endymion 💫', false],
-  ['967773685143', '💫 Mystic - Collaborator 8 💫', true],
-  ['967773685143', '💫 Mystic - By Alba070503 💫', true],
-  ['967773685143','💫 Mystic - Tester Fabri115💫', true],
+  ['967773685143', '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁', true],
+  ['967773685143', '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁', true],
+  ['967773685143', '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁', true],
   ['967773685143'],
   ['967773685143'],
-  ['967773685143'],
-  ['967773685143'],
-  ['967773685143'], 
-  ['967773685143'],  
-  ['967773685143'],
-  ['967773685143'],
-  ['51906662557'],
-  ['967773685143'], 
-  ['967773685143'], 
-  ['967773685143'],
-  ['967773685143'],
-  ['967773685143'],
-  ['967773685143'], 
-  ['967773685143']
+  ['+967773685143']
 ];
 
 global.suittag = ['967773685143'];
@@ -48,7 +28,7 @@ global.wm = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
 global.titulowm = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
 global.titulowm2 = `𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀`
 global.igfg = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
-global.wait = '*[ ⏳ ] جاري التحميل...*';
+global.wait = '*[ ⏳ ]  _جاري التحميل..._*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -77,9 +57,9 @@ global.gt = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
 global.mysticbot = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.waitt = '*[ ⏳ ] جاري التحميل...*';
-global.waittt = '*[ ⏳ ] جاري التحميل...*';
-global.waitttt = '*[ ⏳ ] جاري التحميل...*';
+global.waitt = '*[ ⏳ ]  _جاري التحميل..._*';
+global.waittt = '*[ ⏳ ]  _جاري التحميل..._*';
+global.waitttt = '*[ ⏳ ]  _جاري التحميل..._*';
 global.nomorown = '967773685143';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
