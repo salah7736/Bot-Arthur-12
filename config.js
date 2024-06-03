@@ -25,7 +25,6 @@ global.prems = ['967773685143'];
 global.packname = 'Sticker';
 global.author = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
 global.wm = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
-global.vs = 'V2 • 1.0.5':
 global.titulowm = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
 global.titulowm2 = `𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀`
 global.igfg = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
