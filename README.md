@@ -1,161 +1,182 @@
-<p align="center">  
-  <a href="https://youtu.be/WcA7GZuaN0A">
-    <img alt="Guru" height="300" src="https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg">
-    <h1 align="center">GURU-BOT 2.O</h1>
-  </a>
-</p>
-<p align="center">
-<a href="https://github.com/Guru322"><img title="Author" src="https://img.shields.io/badge/GURU-BOT-black?style=for-the-badge&logo=telegram"></a>
-<p/>
-<p align="center">
-<a href="https://github.com/Guru322?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Guru322?label=Followers&style=social"></a>
-<a href="https://github.com/Guru322/GURU-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Guru322/GURU-BOT?&style=social"></a>
-<a href="https://github.com/Guru322/GURU-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Guru322/GURU-BOT?style=social"></a>
-<a href="https://github.com/Guru322/GURU-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Guru322/GURU-BOT?label=Watching&style=social"></a>
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FGuru322%2FGURU-BOT?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FGuru322%2FGURU-BOT.svg?type=shield"/></a>
-</p>
+# `𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏` 
 
-####  
-GURU-BOT- Simple Multi Device whatsapp bot.
+------------------
+> **AVISO**: Yo "Bruno Sobrino", me he retirado de todo lo relacionado con el bot o temas similares, por lo que en algún momento quedará obsoleto y/o algunos comandos dejarán de funcionar. Agradezco su preferencia durante el recorrido por este mundo de los bots.
 
-***
+> TheMystic-Bot-MD pasa a quedar en manos de colaboradores, y como principal representante Aiden_NotLogic.
+------------------
 
-#### SETUP
+<!-- Por colaborador: https://github.com/jeffersonalionco -->
+> Función de **idioma** oficialmente implementada en TheMystic-Bot-MD: **/lang**
+> ##### **𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏 - Idiomas Disponibles**
+> - es - Español
+> - pt-br - Portugués
+> - en - Inglés
+> - ru - Ruso
+> - fr - Francés
+> - ar - Árabe (انزل لآخر الصفحة للتعرف على المزيد) 
 
-1. Fork the repo
-    <br>
-<a href='https://github.com/Guru322/GURU-BOT/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+### `▢ CUENTAS OFICIALES`
 
+[ 🔗 ] https://www.atom.bio/theshadowbrokers-team
 
+### `▢ GRUPOS DE SOPORTE (NO DISPONIBLE)`
 
-2. Get Session ID (Server 1)
-   > For Indian users Connect to a usa Vpn while login
-    
-     <a href='https://session.guruapi.tech' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+ <a href="https://chat.whatsapp.com/J8tFq87Ia0jEnx20NvCQxN" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(PORTUGU%C3%8AS)_(ATIVO)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
+<a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(ES)_(NO_DISPONIBLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
-3. Get Session ID (Server 2) (use this if server 1 Doesn't work)
-    <br>
-<a href='https://replit.com/@UsharaniSahoo1/GURU-BOT-PAIR?v=1' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/SUPPORT_GROUP_(EN)_(NOT AVAILABLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+
+> [ ℹ️ ] En los grupos de soporte no se permiten bots.
+
+ ### `▢ BOTS OFICIALES (INACTIVOS)`
 
 
-#### DEPLOY TO HEROKU
+<a href="https://api.whatsapp.com/send/?phone=5219991402134&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1_(INACTIVO)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-1. If You don't have an account in Heroku. Create a account.
-    <br>
-<p align="center"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<a href="https://api.whatsapp.com/send/?phone=5219993404349&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_2_(INACTIVO)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-2. Watch the following video tutorial, for assistance.
-    <br>
-<p align="center"><a href="https://youtu.be/yfdzckCcbPk?si=doxesZtn87BepUBw"> <img src="https://img.shields.io/badge/heroku%20Tutorial-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+### `▢ DONAR`
+- Agradece con una donación voluntaria haciendo [clic aquí](https://www.paypal.me/TheShadowBrokers133)
 
-3. Now Deploy.(No Ban)
-   <br>
- <div align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/Guru322/Bypass">
-    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
-  </a>
-</div>
+### `▢ PLUGINS`
+- Tienes ideas de plugins o ¿quieres obtener mas plugins? entonces hace [clic aquí](https://github.com/theh2so4/Mystic-Plugins)
 
-#### DEPLOY TO KOYEB
+### `▢ AJUSTES`
+- Clona el repositorio haciendo [clic aquí](https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork)
+- ¿Quieres cambiar el número del propietario? haz [clic aquí](https://github.com/BrunoSobrino/TheMystic-Bot-MD/blob/master/config.js)
 
-1. if you don't have a koyeb account. Create an account.
-   <br>
-   <p align="center"><a href="https://app.koyeb.com/auth/signup"> <img src="https://img.shields.io/badge/Koyeb account-blue?style=for-the-badge&logo=koyeb" width="220" height="38.45"/></a></p>
+### `▢ ACTIVAR EN CAFIREXOS (ANTES ZIPPONODES)`
+<a href="https://www.cafirexos.com"><img src="https://r2.cafirexos.com/logos%2Flogo_cfros_2000x2000.png" height="125px"></a>
+- Sitio web: [www.cafirexos.com](https://www.cafirexos.com)
+- Dash: [dash.cafirexos.com](https://dash.cafirexos.com)
+- Panel: [panel.cafirexos.com](https://panel.cafirexos.com)
+- Documentación: [docs.cafirexos.com](https://docs.cafirexos.com)
+- Canal de WhatsApp: [clic aquí](https://cafirexos.com/whatsapp)
 
-2. Now deploy
-   <br>
-  <p align="center"><a href="https://guru-bot-deploy.vercel.app"> <img src="https://www.koyeb.com/static/images/deploy/button.svg" width="380" height="38.45"/></a></p>
+### `▢ ACTIVAR EN BOXMINEHOST`
+<a href="https://boxmineworld.com"><img src="https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/Pre%20Bot%20Publi.png" width="450" height="240" alt="JPG"/></a>
+- Pagina Oficial: [https://boxmineworld.com](https://boxmineworld.com)
+- Dashboard: [https://dash.boxmineworld.com](https://dash.boxmineworld.com)
+- Panel: [https://panel.boxmineworld.com](https://panel.boxmineworld.com)
+- Tutorial: [https://youtu.be/eC9TfKICpcY](https://youtu.be/eC9TfKICpcY)
+- Dudas UNICAMENTE SOBRE EL HOST: [https://discord.gg/84qsr4v](https://discord.gg/84qsr4v) (Preguntar por Vicemi)
 
+### `▢ ACTIVAR EN KOYEB`
 
-
-
-#### DEPLOY TO RAILWAY(idk if this still works)
-
-1. If You don't have an account On Railway. Create a account.
-    <br>
-<p align="center"><a href="https://railway.app"> <img src="https://img.shields.io/badge/RailWay%20Account-blue?style=for-the-badge&logo=Railway" width="220" height="38.45"/></a></p>
-
- - Fork and star this repo.
-- Now head towards https://railway.app/new, select Deploy from repo.
-- Now select the forked repository, select branch.
-- Now go to <b>Variables</b> and add variable listed below.
-   - DATABASE_URL, SESSION_ID, REMOVEBG_KEY, PREFIX
-- Go to <b>Deployments</b> and wait for deplyment to complete.
-- and you're good to go.
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/BrunoSobrino/TheMystic-Bot-MD&branch=master&name=mysticbot)
   
-2. TUTORIAL (Huh if i get free time)
-#### DEPLOY TO OKTETO ( okteto ending it's free tier on January 15, 2024)
+### `▢ ACTIVAR EN REPLIT`
 
-1. If You don't have an account On Okteto. Create a account.
-    <br>
-<p align="center"><a href="https://www.okteto.com/pricing/?plan=SaaS"> <img src="https://img.shields.io/badge/Okteto%20Account-blue?style=for-the-badge&logo=okteto" width="220" height="38.45"/></a></p>
+[![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD) 
+  
+### `▢ ACTIVAR EN RENDER`
 
- - Fork and star this repo.
-- Now head towards Lunch Dev Environment
-- Now select the forked GURU BOT repository.
-- Now go to <b>Variables</b> and add variable listed below.
-   - DATABASE_URL, SESSION_ID, REMOVEBG_KEY, PREFIX
-- Then Click Lunch and wait for deplyment to complete.
-- and you're good to go.
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FBrunoSobrino%2FTheMystic-Bot-MD) 
 
-2. TUTORIAL (Never)
-#### DEPLOY TO Replit (This shit also Going paid)
+### `▢ ACTIVAR EN TERMUX` 
+- Escribe los siguientes comandos en Termux:
+```bash
+cd && termux-setup-storage
+```
 
-1. If You don't have an account in Replit. Create an account.
-    <br>
-<p align="center"><a href="https://replit.com/signup"> <img src="https://img.shields.io/badge/replit%20Account-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+```bash
+apt-get update -y && apt-get upgrade -y
+```
 
-2. Now Deploy
-    <br>
-<p align="center"><a href="https://repl.it/github/Guru322/GURU-BOT"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+```bash
+pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
+```
 
+```bash
+git clone https://github.com/BrunoSobrino/TheMystic-Bot-MD.git && cd TheMystic-Bot-MD
+```
+
+```bash
+yarn install
+```
+
+```bash
+npm install
+```
+
+```bash
+npm update
+```
+
+```bash
+npm start
+```
+
+### `▢ ACTIVAR EN CASO DE DETENERSE (TERMUX)`
+- Escribe los siguientes comandos en Termux:
+```bash
+> cd 
+> cd Mystic-termux
+> npm start
+```
+
+### `▢ OBTENER OTRO CODIGO QR (TERMUX)`
+- DETEN EL BOT, HAZ CLICK EN EL SIMBOLO CTRL DE TERMUX MAS Z EN SU TECLADO MOVIL HASTA QUE SALGA ALGO EN VERDE SIMILAR A TheMystic-Bot-MD $
+- Escribe los siguientes comandos en Termux:
+```bash
+> cd 
+> cd TheMystic-Bot-MD
+> rm -rf MysticSession
+> npm start
+```
+### `▢ NOTAS`
+- ES POSIBLE QUE EL BOT TENGA ALGUNAS FALLAS, SE IRAN SOLUCIONANDO CONFORME SE VAYAN DETECTANDO
+- SI VAS A EDITAR POR COMPLETO DEJA LOS CREDITOS DEL BOT 
+- EL BOT ES COMPARTIBLE CON WHATSAPP NORMAL O BUSINESS
+- ATENTO A LAS ACTUALIZACIONES QUE SE HAGAN EN ESTE REPOSITORIO
+- PUEDES USAR #actualizacion PARA VER SI ALGUN COMANDO FUE ACTUALIZADO
+- EL ADD Y EL KICK PUEDEN OCASIONAR QUE EL NUMERO SE VAYA A SOPORTE POR ELLO SE ACTIVA CON #enable restrict 
+- THE SHADOW BROKERS - TEAM NO SE HACE RESPONSABLE DEL USO, NUMEROS, PRIVACIDAD Y CONTENIDO MANDADO, USADO O GESTIONADO POR USTEDES O EL BOT
  
- ## 🤩 Support
+ ### `▢ ¿DUDAS SOBRE EL BOT?, CONTACTANOS`
+<a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/BRUNO_SOBRINO_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/595986460945" target="blank"><img src="https://img.shields.io/badge/AIDEN_NOTLOGIC_COLAB.3-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/51940617554" target="blank"><img src="https://img.shields.io/badge/GATITO_COLAB.4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/593991398786" target="blank"><img src="https://img.shields.io/badge/CARLOSTWT_COLAB.5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/51996089079" target="blank"><img src="https://img.shields.io/badge/GHOST_COLAB.6-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/51995386439" target="blank"><img src="https://img.shields.io/badge/NEKOSMICMATT_COLAB.7-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/593959425714" target="blank"><img src="https://img.shields.io/badge/DIEGO_COLAB.8-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/50246028932" target="blank"><img src="https://img.shields.io/badge/SinNombre_COLAB.9-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/5212411719888" target="blank"><img src="https://img.shields.io/badge/YOVANI_COLAB.10-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/5218442114446" target="blank"><img src="https://img.shields.io/badge/skid_COLAB.11-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/393755775755" target="blank"><img src="https://img.shields.io/badge/Fabri115_COLAB.12-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/212609395104" target="blank"><img src="https://img.shields.io/badge/Saad_COLAB.13-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-SUPPORT GROUP: <a href="https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
+## `▢ COLABORADORES DEL BOT` 
+<a href="https://github.com/unptoadrih15"><img src="https://github.com/unptoadrih15.png" width="100" height="100" alt="unptoadrih15"/></a>
+<a href="https://github.com/ALBERTO9883"><img src="https://github.com/ALBERTO9883.png" width="100" height="100" alt="ALBERTO9883"/></a>
+<a href="https://github.com/ferhacks"><img src="https://github.com/ferhacks.png" width="100" height="100" alt="ferhacks"/></a>
+<a href="https://github.com/G4tito"><img src="https://github.com/G4tito.png" width="100" height="100" alt="G4tito"/></a>
+<a href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png" width="100" height="100" alt="GataNina-Li"/></a>
+<a href="https://github.com/OsExar"><img src="https://github.com/OsExar.png" width="100" height="100" alt="OsExar"/></a>
+<a href="https://github.com/CarlosTwT"><img src="https://github.com/CarlosTwT.png" width="100" height="100" alt="CarlosTwT"/></a>
+<a href="https://github.com/anxo2077"><img src="https://github.com/anxo2077.png" width="100" height="100" alt="anxo2077"/></a>
+<a href="https://github.com/GeneradorVIP"><img src="https://github.com/GeneradorVIP.png" width="100" height="100" alt="GeneradorVIP"/></a>
+<a href="https://github.com/DIEGO-OFC"><img src="https://github.com/DIEGO-OFC.png" width="100" height="100" alt="DIEGO-OFC"/></a>
+<a href="https://github.com/SinNombre999"><img src="https://github.com/SinNombre999.png" width="100" height="100" alt="SinNombre999"/></a>
+<a href="https://github.com/ReyEndymion"><img src="https://github.com/ReyEndymion.png" width="100" height="100" alt="ReyEndymion"/></a>
+<a href="https://github.com/theh2so4"><img src="https://github.com/theh2so4.png" width="100" height="100" alt="theh2so4"/></a>
+<a href="https://github.com/skidy89"><img src="https://github.com/skidy89.png" width="100" height="100" alt="skidy89"/></a>
+<a href="https://github.com/OFC-YOVANI"><img src="https://github.com/OFC-YOVANI.png" width="100" height="100" alt="OFC-YOVANI"/> </a>
+<a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="100" height="100" alt="elrebelde21"/> </a>
+<a href="https://github.com/Fabri115"><img src="https://github.com/Fabri115.png" width="100" height="100" alt="Fabri115"/> </a>
+<a href="https://github.com/Alba070503"><img src="https://github.com/Alba070503.png" width="100" height="100" alt="Alba070503"/> </a>
+<a href="https://github.com/jeffersonalionco"><img src="https://github.com/jeffersonalionco.png" width="100" height="100" alt="Alba070503"/> </a>
+<a href="https://instagram.com/nm9h"><img src="https://telegra.ph/file/7580886a1d41b35b51e38.jpg" width="100" height="100" alt="Saad"/> </a>
 
-- Star ⭐ the repo if you like GURU-BOT.
-
-## CREDITS 
-<div><button id="boton" type="button">Baileys - By WhiskeySockets & adiwajshing</button></div>
+## `▢ AGRADECIMIENTOS & CREDITOS` 
+<div><button id="boton" type="button">games-wabot-md by BochilGaming </button></div>
+<a href="https://github.com/BochilGaming/games-wabot-md/tree/multi-device"><img src="https://github.com/BochilGaming.png" width="150" height="150" alt="BochilGaming"/></a>
+<div><button id="boton" type="button">Baileys by adiwajshing & WhiskeySockets</button></div>
 <a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
 
-<div><button id="boton" type="button">Base  - By FG98F</button></div>
-<a href="https://github.com/FG98F"><img src="https://github.com/FG98F.png" width="150" height="150" alt="adiwajshing"/></a>
-
-
-
-## `Main Dev` 
-<a href="https://github.com/Guru322"><img src="https://github.com/Guru322.png" width="250" height="250" alt="Guru322"/></a>
-  
-`GURU-BOT - By Guru322`
-
-### CONTRIBUTORS
-<a href="https://github.com/IndraTensei"><img src="https://github.com/IndraTensei.png" width="200" height="200" alt="Ash"/></a>
-<a href="https://github.com/Amrit9304"><img src="https://github.com/Amrit9304.png" width="200" height="200" alt="Amrit"/></a>
-<a href="https://github.com/Ghost7798"><img src="https://github.com/Ghost7798.png" width="200" height="200" alt="Ghost7798"/></a>
-<a href="https://github.com/Kai0071"><img src="https://github.com/Kai0071.png" width="200" height="200" alt="Kai"/></a>
-
-<h2 align="center">  Reminder
-</h2>
-   
-## 
-- This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
-- I am not responsible for banning your account.
-- Use at your own risk by keeping this warning in mind.
-
-
-<h2 align="center">  NOTICE
-</h2>
-   
-## 
-- Not For Sale
-- If A plugin's code is obfuscated , You don't have permission to edit it in any form 
-- Don't Forget to Give Credits If you are using or Reuploading My Plugins/files
-- Have A Good Day Ahead
-
-
-
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FGuru322%2FGURU-BOT.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FGuru322%2FGURU-BOT?ref=badge_large)
+## `▢ PROPIETARIO DEL BOT` 
+<a href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="250" height="250" alt="BrunoSobrino"/></a>
+ 
