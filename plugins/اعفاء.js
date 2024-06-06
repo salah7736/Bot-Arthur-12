@@ -23,7 +23,7 @@ let handler = async (m, { conn, participants }) => {
     }
 }
 
-handler.help = ['تخفيض']
+handler.help = ['تخفيض @tag']
 handler.tags = ['المجموعات']
 handler.command = /^('خفض|تخفيض|اعفاء)$/i
 
