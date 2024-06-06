@@ -11,7 +11,12 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             },
             nativeFlowMessage: {
               buttons: [
-                {
+                   {
+                  name: 'single_select',
+                  buttonParamsJson: JSON.stringify({
+                    title: 'دوووس هنا ',
+                    sections: 
+                ,{
                   name: 'single_select',
                   buttonParamsJson: JSON.stringify({
                     title: 'دوس هنا ',
@@ -24,13 +29,13 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             header: 'قسم الانمي',
                             title: '.المطور',
                             description: '',
-                            id: 'te'
+                            id: '.المطور'
                           },
                           {
                             header: 'قسم الاوامر',
                             title: '.الاوامر',
                             description: '',
-                            id: 'te'
+                            id: '.الاوامر'
                           }
                         ]
                       }
