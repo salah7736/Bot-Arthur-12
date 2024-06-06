@@ -19,7 +19,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                     sections: [
                       {
                         title: 'List',
-                        highlight_label: 'ON',
+                        highlight_label: 'بوت',
                         rows: [
                             {
                             header: '*❯⏐اوامـر الـجـروبـات↞📜*',
@@ -71,7 +71,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                           },
                           {
                             header: '*❯⏐اوامـر الـمطـور↞👑*',
-                            title: '.ميزو9',
+                            title: 'بوت',
                             description: '',
                             id: 'te'
                           },
