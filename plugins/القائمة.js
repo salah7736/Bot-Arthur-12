@@ -1,4 +1,3 @@
-
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
@@ -12,22 +11,10 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             },
             nativeFlowMessage: {
               buttons: [
-{
-                  name: 'single_select',
-                  buttonParamsJson: JSON.stringify({
-                    title: 'دوس على الزر ',
-                    sections: [
-                        {
-{
-                  name: 'single_select',
-                  buttonParamsJson: JSON.stringify({
-                    title: '.المطور',
-                    sections: [
-                        {
                 {
                   name: 'single_select',
                   buttonParamsJson: JSON.stringify({
-                    title: 'قائمة',
+                    title: 'دوس عليا 💔',
                     sections: [
                       {
                         title: 'List',
@@ -37,37 +24,37 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             header: '*❯⏐اوامـر الـجـروبـات↞📜*',
                             title: 'ميزو1',
                             description: '',
-                            id: 'te'
+                            id: '.ميزو1'
                           },
                             {
                             header: '*❯⏐اوامـر الأعـضـاء↞🪽*',
                             title: '.ميزو2',
                             description: '',
-                            id: 'te'
+                            id: '.ميزو2'
                           },
                             {
                             header: '*❯⏐اوامـر  الـترفـيـه↞🎀*',
                             title: '.ميزو3',
                             description: '',
-                            id: 'te'
+                            id: '.ميزو3'
                           },
                             {
                             header: '*❯⏐اوامـر  التـحمـيل↞🖨️*',
                             title: '.ميزو4',
                             description: '',
-                            id: 'te'
+                            id: '.ميزو4'
                           },
                             {
                             header: '*❯⏐اوامـر الـصـور↞☘️*',
                             title: '.ميزو5',
                             description: '',
-                            id: 'te'
+                            id: '.ميزو5'
                           },
                             {
                             header: '*❯⏐اوامـر الـلـفـل↞🏅*',
                             title: '.ميزو6',
                             description: '',
-                            id: 'te'
+                            id: '.ميزو6'
                           },
                             {
                             header: '*❯⏐اوامـر الملصقات↞❄️*',
@@ -79,19 +66,19 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             header: '*❯⏐اوامـر ديـنـيـه↞🕌*',
                             title: '.ميزو8',
                             description: '',
-                            id: 'te'
+                            id: '.ميزو8'
                           },
                           {
                             header: '*❯⏐اوامـر الـمطـور↞👑*',
                             title: 'بوت',
                             description: '',
-                            id: 'te'
+                            id: 'بوت'
                           },
                           {
                             header: '*❯⏐جـمـيـع الاوامـر ↞💎*',
                             title: '.ميزو10',
                             description: '',
-                            id: 'te'
+                            id: '.ميزو10'
                           }
                         ]
                       }
