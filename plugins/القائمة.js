@@ -1,6 +1,4 @@
 
-
-
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
@@ -23,63 +21,45 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                         title: 'List',
                         highlight_label: 'ON',
                         rows: [
+                            {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: '.النظام_كود',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: '.النظام_كود',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: '.النظام_كود',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: '.النظام_كود',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: '.النظام_كود',
+                            description: '',
+                            id: 'te'
+                          },
                           {
                             header: '☘️ قـسـم الـنـظـام',
-                            title: '.ميزو1',
+                            title: '.النظام_كود',
                             description: '',
                             id: 'te'
                           },
                           {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: '.ميزو2',
-                            description: '',
-                            id: 'te'
-                          }, 
-                           {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: '.ميزو3',
-                            descriptio'n: '',
-                            id: 'te'
-                          },
-                            {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: '.ميزو4',
-                            description: '',
-                            id: 'te'
-                          },
-                                {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: '.ميزو5',
-                            description: '',
-                            id: 'te'
-                          },
-                            {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: '.ميزو6',
-                            description: '',
-                            id: 'te'
-                          },      
-                            {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: '.ميزو7',
-                            description: '',
-                            id: 'te'
-                          },
-                            {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: '.ميزو8',
-                            description: '',
-                            id: 'te'
-                          },
-                            {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: '.ميزو9',
-                            description: '',
-                            id: 'te'
-                          },
-                            {
                             header: '👑 قـسـم الـمـطـور',
-                            title: '.ميزو10',
+                            title: '.المطور_كود',
                             description: '',
                             id: 'te'
                           }
