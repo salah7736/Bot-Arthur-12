@@ -14,7 +14,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                 {
                   name: 'single_select',
                   buttonParamsJson: JSON.stringify({
-                    title: 'دوس عليا 💔',
+                   title: 'دوس عليا 💔',
+                   title: '.المطور',
                     sections: [
                       {
                         title: 'List',
@@ -84,7 +85,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                       }
                     ]
                   }),
-                  messageParamsJson: 'https://telegra.ph/file/03153348a72c28636ff77.jpg'
+                  messageParamsJson: ''
                 }
               ]
             }
