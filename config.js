@@ -40,12 +40,12 @@ global.imagen7 = fs.readFileSync('./src/menu_pt.png');
 global.imagen8 = fs.readFileSync('./src/menu_fr.png')
 global.imagen9 = fs.readFileSync('./src/menu_en.png')
 global.imagen10 = fs.readFileSync('./src/menu_ru.png')
-
 global.mods = [];
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
 global.locale = 'es';
+global.db.data.users[who].warn += 1
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
 global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
 global.mes = d.toLocaleDateString('es', {month: 'long'});
