@@ -5,7 +5,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         message: {
           interactiveMessage: {
             header: {
-              title: '*「✧|───✦❯┇👑┇❮✦───|✧」*\n\n*💫 قـائـمـة بوت ميزوهارا*'
+              title: '*「✧|───✦❯┇👑┇❮✦───|✧」*\n\n *💫 قـائـمـة بوت ميزوهارا*'
             },
             body: {
               text: '*🔮 افتح القائمة بالضغط على الزر*\n*جميع الاوامر قم بختيار اي امر🏷*'
