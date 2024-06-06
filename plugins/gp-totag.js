@@ -8,7 +8,7 @@ let handler = async (m, { conn, text, participants}) => {
 
 handler.help = ['totag']
 handler.tags = ['group']
-handler.command = /^(مخفي|وهمي)$/i
+handler.command = /^(مخفي|وهامي)$/i
 
 handler.admin = true
 handler.group = true
