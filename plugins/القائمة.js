@@ -1,4 +1,3 @@
-
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
@@ -25,61 +24,61 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             header: '*❯⏐اوامـر الـجـروبـات↞📜*',
                             title: 'ميزو1',
                             description: '',
-                            text: 'te'
+                            id: 'List'
                           },
                             {
                             header: '*❯⏐اوامـر الأعـضـاء↞🪽*',
                             title: '.ميزو2',
                             description: '',
-                            text: 'te'
+                            id: 'List'
                           },
                             {
                             header: '*❯⏐اوامـر  الـترفـيـه↞🎀*',
                             title: '.ميزو3',
                             description: '',
-                            text: 'te'
+                            id: 'List'
                           },
                             {
                             header: '*❯⏐اوامـر  التـحمـيل↞🖨️*',
                             title: '.ميزو4',
                             description: '',
-                            text: 'te'
+                            id: 'List'
                           },
                             {
                             header: '*❯⏐اوامـر الـصـور↞☘️*',
                             title: '.ميزو5',
                             description: '',
-                            text: 'te'
+                            id: 'List'
                           },
                             {
                             header: '*❯⏐اوامـر الـلـفـل↞🏅*',
                             title: '.ميزو6',
                             description: '',
-                            text: 'te'
+                            id: 'List'
                           },
                             {
                             header: '*❯⏐اوامـر الملصقات↞❄️*',
                             title: '.ميزو7',
                             description: '',
-                            text: 'te'
+                            id: 'List'
                           },
                             {
                             header: '*❯⏐اوامـر ديـنـيـه↞🕌*',
                             title: '.ميزو8',
                             description: '',
-                            text: 'te'
+                            id: 'List'
                           },
                           {
                             header: '*❯⏐اوامـر الـمطـور↞👑*',
                             title: 'بوت',
                             description: '',
-                            text: 'te'
+                            id: 'List'
                           },
                           {
                             header: '*❯⏐جـمـيـع الاوامـر ↞💎*',
                             title: '.ميزو10',
                             description: '',
-                            text: 'te'
+                            id: 'List'
                           }
                         ]
                       }
