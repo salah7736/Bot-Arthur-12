@@ -1,5 +1,6 @@
 
 
+
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
@@ -23,32 +24,29 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                         highlight_label: 'ON',
                         rows: [
                           {
-                            header: '☘️ قـسـم الجروبات',
+                            header: '☘️ قـسـم الـنـظـام',
                             title: '.ميزو1',
                             description: '',
                             id: 'te'
                           },
-                            {
-                            header: '☘️ قـسـم ',
+                          {
+                            header: '☘️ قـسـم الـنـظـام',
                             title: '.ميزو2',
                             description: '',
                             id: 'te'
-                          },
-                            {
-                                {
+                          }, 
+                           {
                             header: '☘️ قـسـم الـنـظـام',
                             title: '.ميزو3',
-                            description: '',
+                            descriptio'n: '',
                             id: 'te'
                           },
                             {
-                                {
                             header: '☘️ قـسـم الـنـظـام',
                             title: '.ميزو4',
                             description: '',
                             id: 'te'
                           },
-                            {
                                 {
                             header: '☘️ قـسـم الـنـظـام',
                             title: '.ميزو5',
@@ -56,35 +54,30 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             id: 'te'
                           },
                             {
-                                {
                             header: '☘️ قـسـم الـنـظـام',
-                            title: 'ميزو6',
+                            title: '.ميزو6',
+                            description: '',
+                            id: 'te'
+                          },      
+                            {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: '.ميزو7',
                             description: '',
                             id: 'te'
                           },
                             {
-                                {
                             header: '☘️ قـسـم الـنـظـام',
-                            title: 'ميزو7',
+                            title: '.ميزو8',
                             description: '',
                             id: 'te'
                           },
                             {
-                                {
                             header: '☘️ قـسـم الـنـظـام',
-                            title: 'ميزو8',
+                            title: '.ميزو9',
                             description: '',
                             id: 'te'
                           },
                             {
-                                {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: 'ميزو9',
-                            description: '',
-                            id: 'te'
-                          },
-                            {
-                          {
                             header: '👑 قـسـم الـمـطـور',
                             title: '.ميزو10',
                             description: '',
