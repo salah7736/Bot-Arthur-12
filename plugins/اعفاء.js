@@ -1,36 +1,34 @@
-let handler = async (m, { conn,usedPrefix, command, text }) => {
-if(isNaN(text) && !text.match(/@/g)){
+////مقدمة من قناة https://whatsapp.com/channel/0029Vag9bvrLSmbRE2I5Oj2h
+import { areJidsSameUser } from '@adiwajshing/baileys'
 
-}else if(isNaN(text)) {
-var number = text.split`@`[1]
-}else if(!isNaN(text)) {
-var number = text
-}
-if(!text && !m.quoted) return conn.reply(m.chat, `*مـنـشن الــشـخص !*`, m)
-if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `*الـرقـم غـلط !*`, m)
+let handler = async (m, { conn, participants }) => {
+    let users = m.mentionedJid.filter(u => !areJidsSameUser(u, conn.user.id))
+    let user = m.mentionedJid && m.mentionedJid[0]
 
-try {
-if(text) {
-var user = number + '@s.whatsapp.net'
-} else if(m.quoted.sender) {
-var user = m.quoted.sender
-} else if(m.mentionedJid) {
-var user = number + '@s.whatsapp.net'
-} 
-} catch (e) {
-} finally {
-conn.groupParticipantsUpdate(m.chat, [user], 'demote')
-m.reply(`*تـــم الــأعــفـاء ┃🌸┃✓*`)
+    if (user) {
+        await conn.groupParticipantsUpdate(m.chat, [user], 'demote')
+        
+        // رابط الصورة المراد إرسالها
+        let imageUrl = 'https://telegra.ph/file/4d5488839ce409dff56a5.jpg'
+        
+        // منشن للشخص الذي قام باستعمال الأمر والشخص الذي تم خفضه من الإشراف
+        let replyText = `┃@${m.sender.split('@')[0]}*تـــم الــأعــفـاء ┃🌸┃✓* @${user.split('@')[0]} من الإشراف┃✓`
+        await conn.sendMessage(m.chat, { 
+            image: { url: imageUrl }, // إضافة الصورة هنا
+            caption: replyText, // النص المرافق للصورة
+            mentions: [m.sender, user]
+        })
+    } else {
+        m.reply('*🌸┃منشن الشخص يلي تبي تخفيضه┃✓*')
+    }
 }
 
-}
-handler.help = ['demote (@tag)']
-handler.tags = ['group']
-handler.command = ['demote', 'تخفيض'] 
-handler.group = true
+handler.help = ['تخفيض']
+handler.tags = ['المجموعات']
+handler.command = /^('خفض|تخفيض|اعفاء)$/i
+
 handler.admin = true
+handler.group = true
 handler.botAdmin = true
-handler.fail = null
 
 export default handler
-   
