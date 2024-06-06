@@ -21,7 +21,6 @@ global.owner = [
 
 global.suittag = ['967773685143'];
 global.prems = ['967773685143'];
-
 global.packname = 'Sticker';
 global.author = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
 global.wm = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
@@ -45,7 +44,6 @@ global.mods = [];
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
 global.locale = 'es';
-global.db.data.users[who].warn += 1
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
 global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
 global.mes = d.toLocaleDateString('es', {month: 'long'});
