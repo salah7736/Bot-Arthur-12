@@ -84,7 +84,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                       }
                     ]
                   }),
-                  messageParamsJson: ''
+                  messageParamsJson: 'https://telegra.ph/file/03153348a72c28636ff77.jpg'
                 }
               ]
             }
