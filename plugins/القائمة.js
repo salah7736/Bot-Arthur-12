@@ -25,13 +25,13 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             header: '*❯⏐اوامـر الـجـروبـات↞📜*',
                             title: 'ميزو1',
                             description: '',
-                            id: 'te'
+                            id: 'ميزو.1'
                           },
                             {
                             header: '*❯⏐اوامـر الأعـضـاء↞🪽*',
                             title: '.ميزو2',
                             description: '',
-                            id: 'te'
+                            id: '.ميزو2'
                           },
                             {
                             header: '*❯⏐اوامـر  الـترفـيـه↞🎀*',
@@ -43,7 +43,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             header: '*❯⏐اوامـر  التـحمـيل↞🖨️*',
                             title: '.ميزو4',
                             description: '',
-                            id: 'te'
+                            id: '.ميزو4'
                           },
                             {
                             header: '*❯⏐اوامـر الـصـور↞☘️*',
