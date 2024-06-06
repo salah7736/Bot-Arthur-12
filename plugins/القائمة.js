@@ -23,14 +23,70 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                         highlight_label: 'ON',
                         rows: [
                           {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: 'ميزو10',
+                            header: '☘️ قـسـم الجروبات',
+                            title: '.ميزو1',
                             description: '',
                             id: 'te'
                           },
+                            {
+                            header: '☘️ قـسـم ',
+                            title: '.ميزو2',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                                {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: '.ميزو3',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                                {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: '.ميزو4',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                                {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: '.ميزو5',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                                {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: 'ميزو6',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                                {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: 'ميزو7',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                                {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: 'ميزو8',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
+                                {
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: 'ميزو9',
+                            description: '',
+                            id: 'te'
+                          },
+                            {
                           {
                             header: '👑 قـسـم الـمـطـور',
-                            title: 'ميزو11',
+                            title: '.ميزو10',
                             description: '',
                             id: 'te'
                           }
