@@ -1,5 +1,3 @@
-
-```
 export async function before(m, { conn, chatUpdate }) {
   const number = 'YOUR_NUMBER_PHONE' // Input example: 9689411xxxx
   try {
@@ -16,6 +14,4 @@ export async function before(m, { conn, chatUpdate }) {
     } else { await conn.reply(`${number}@s.whatsapp.net`, caption, m) }
   } catch (error) { await conn.reply(`${number}@s.whatsapp.net`, `Error: ${error}`, m) }
 };
-```
 
-> dark man
