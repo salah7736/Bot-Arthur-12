@@ -12,7 +12,7 @@ let handler = async (m, { conn, participants }) => {
         let imageUrl = 'https://telegra.ph/file/4d5488839ce409dff56a5.jpg'
         
         // منشن للشخص الذي قام باستعمال الأمر والشخص الذي تم خفضه من الإشراف
-        let replyText = `┃@${m.sender.split('@')[0]}*تـــم الــأعــفـاء ┃🌸┃✓* @${user.split('@')[0]} من الإشراف┃✓`
+        let replyText = `🌸┇@${m.sender.split('@')[0]} تم خفض @${user.split('@')[0]} من الإشراف┇✦`
         await conn.sendMessage(m.chat, { 
             image: { url: imageUrl }, // إضافة الصورة هنا
             caption: replyText, // النص المرافق للصورة
@@ -25,7 +25,7 @@ let handler = async (m, { conn, participants }) => {
 
 handler.help = ['تخفيض @tag']
 handler.tags = ['المجموعات']
-handler.command = /^('خفض|تخفيض|اعفاء)$/i
+handler.command = /^(اعفاء|تخفيض)$/i
 
 handler.admin = true
 handler.group = true
