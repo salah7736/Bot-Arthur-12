@@ -1,3 +1,4 @@
+
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
@@ -7,14 +8,26 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
               title: '✦━━ –⊰ ✤ 〔⚡〕✤ ⊱– ━━✦\n\n ⚡️قـائـمـة بوت ميزوهارا⚡️'
             },
             body: {
-              text: '< افتح القائمة بالضغط على الزر🔮\n< جميع الاوامر قم بختيار اي امر🏷\n✦━━ –⊰ ✤ 〔⚡〕✤ ⊱– ━━✦'
+              text: '> افتح القائمة بالضغط على الزر🔮\n> جميع الاوامر قم بختيار اي امر🏷\n✦━━ –⊰ ✤ 〔⚡〕✤ ⊱– ━━✦'
             },
             nativeFlowMessage: {
               buttons: [
+{
+                  name: 'single_select',
+                  buttonParamsJson: JSON.stringify({
+                    title: 'دوس على الزر ',
+                    sections: [
+                        {
+{
+                  name: 'single_select',
+                  buttonParamsJson: JSON.stringify({
+                    title: '.المطور',
+                    sections: [
+                        {
                 {
                   name: 'single_select',
                   buttonParamsJson: JSON.stringify({
-                    title: 'دوس عليا 💔',
+                    title: 'قائمة',
                     sections: [
                       {
                         title: 'List',
@@ -24,37 +37,37 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             header: '*❯⏐اوامـر الـجـروبـات↞📜*',
                             title: 'ميزو1',
                             description: '',
-                            id: '.ميزو1'
+                            id: 'te'
                           },
                             {
                             header: '*❯⏐اوامـر الأعـضـاء↞🪽*',
                             title: '.ميزو2',
                             description: '',
-                            id: '.ميزو2'
+                            id: 'te'
                           },
                             {
                             header: '*❯⏐اوامـر  الـترفـيـه↞🎀*',
                             title: '.ميزو3',
                             description: '',
-                            id: '.ميزو3'
+                            id: 'te'
                           },
                             {
                             header: '*❯⏐اوامـر  التـحمـيل↞🖨️*',
                             title: '.ميزو4',
                             description: '',
-                            id: '.ميزو4'
+                            id: 'te'
                           },
                             {
                             header: '*❯⏐اوامـر الـصـور↞☘️*',
                             title: '.ميزو5',
                             description: '',
-                            id: '.ميزو5'
+                            id: 'te'
                           },
                             {
                             header: '*❯⏐اوامـر الـلـفـل↞🏅*',
                             title: '.ميزو6',
                             description: '',
-                            id: '.ميزو6'
+                            id: 'te'
                           },
                             {
                             header: '*❯⏐اوامـر الملصقات↞❄️*',
@@ -66,19 +79,19 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             header: '*❯⏐اوامـر ديـنـيـه↞🕌*',
                             title: '.ميزو8',
                             description: '',
-                            id: '.ميزو8'
+                            id: 'te'
                           },
                           {
                             header: '*❯⏐اوامـر الـمطـور↞👑*',
                             title: 'بوت',
                             description: '',
-                            id: 'بوت'
+                            id: 'te'
                           },
                           {
                             header: '*❯⏐جـمـيـع الاوامـر ↞💎*',
                             title: '.ميزو10',
                             description: '',
-                            id: '.ميزو10'
+                            id: 'te'
                           }
                         ]
                       }
