@@ -1,6 +1,4 @@
-//كود لعبة السيارات
-//تابع لقنات
-//https://whatsapp.com/channel/0029VaWuSkHGehEKy41ibw3k
+
 let timeout = 60000
 let poin = 500
 let handler = async (m, { conn, command, usedPrefix }) => {
@@ -12,18 +10,20 @@ let handler = async (m, { conn, command, usedPrefix }) => {
     }
     let src = await (await fetch('https://gist.githubusercontent.com/ggbot564/de6999400bb50eecd7b5f65f67f66786/raw/dd9a5a3cf73fc6bd67c04b3f1a88eea0f049f1db/cars')).json()
   let json = src[Math.floor(Math.random() * src.length)]
-let caption = `___*${command.toUpperCase()}*
-  *「✧|───✦❯◇❮✦───|✧」*
-  ↞┇الـوقـت⏱️↞ ${(timeout / 1000).toFixed(2)} ┇
- استخدم .انسحب للأنسحاب
-  ❐↞┇الـجـائـزة🎖↞ ${poin} نقاط┇
-┃𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴-𝐵𝛩𝑇┃↞⎔
+let caption = `*˼‏❖˹┇⇠『 ${command.toUpperCase()}』*
+ *「✧|────✦❯◇❮✦────|✧」*
+  *〄↞┇الـوقـت⏱️↞ ${(timeout / 1000).toFixed(2)}┇
+  *〄↞┇الـجـائـزة🎖↞ ${poin} ┇*
+ *「✧|────✦❯◇❮✦────|✧」*
+> استخدم .انسحب للأنسحاب‼️
+*✧━ • ━ 「 ✤ 」 ━ • ━✧*
+> ❯⏐ 𝐵𝛩𝑇 𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴
      `.trim()
     conn.tebakbendera[id] = [
         await conn.sendFile(m.chat, json.img, '', caption, m),
         json, poin,
         setTimeout(() => {
-            if (conn.tebakbendera[id]) conn.reply(m.chat, `❮ ⌛┇انتهي الوقت┇⌛❯\n❐↞┇الاجـابـة✅↞ ${json.name}*┇`, conn.tebakbendera[id][0])
+            if (conn.tebakbendera[id]) conn.reply(m.chat, `*❮ 💧┇انتهي الوقت┇💧❯*\n*❐↞┇الاجـابـة⚡️↞ ${json.name}*┇`, conn.tebakbendera[id][0])
             delete conn.tebakbendera[id]
         }, timeout)
     ]
