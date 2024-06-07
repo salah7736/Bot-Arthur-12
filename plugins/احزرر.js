@@ -9,10 +9,10 @@ let handler = async (m, { conn, command, usedPrefix }) => {
     }
     let src = await (await fetch('https://gist.githubusercontent.com/Kyutaka101/98d564d49cbf9b539fee19f744de7b26/raw/f2a3e68bbcdd2b06f9dbd5f30d70b9fda42fec14/guessflag')).json()
   let json = src[Math.floor(Math.random() * src.length)]
-  let caption = `*˼‏❖˹┇⇠『${command.toUpperCase()}』*
+  let caption = `*˼‏❖˹┇⇠『السؤال ${command.toUpperCase()}』*
 *「✧|────✦❯◇❮✦────|✧」*
-  *〄↞┇الـوقـت⏱️↞ *${(timeout / 1000).toFixed(2)}┇
-  *〄↞┇الـجـائـزة🎖↞ ${poin}┇
+  *〄↞┇الـوقـت⏱️↞ ${(timeout / 1000).toFixed(2)}┇*
+  *〄↞┇الـجـائـزة🎖↞ ${poin}┇*
 *「✧|────✦❯◇❮✦────|✧」*
 > استخدم .انسحب للأنسحاب‼️
 *✧━ • ━ 「 ✤ 」 ━ • ━✧*
