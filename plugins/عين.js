@@ -12,7 +12,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
   let json = src[Math.floor(Math.random() * src.length)]
     let caption = `*˼‏❖˹┇⇠『 ${command.toUpperCase()}』*
   *「✧|────✦❯◇❮✦────|✧」*
-  *〄↞┇الـوقـت⏱️↞ *${(timeout / 1000).toFixed(2)}┇
+  *〄↞┇الـوقـت⏱️↞ ${(timeout / 1000).toFixed(2)}┇*
   *〄↞┇الـجـائـزة🎖↞ ${poin} ┇*
   *「✧|────✦❯◇❮✦────|✧」*
    > استخدم .انسحب للأنسحاب‼️
