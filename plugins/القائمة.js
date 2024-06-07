@@ -21,6 +21,11 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                         highlight_label: 'بوت',
                         rows: [
                             {
+                            name: 'single_select',
+                            title: '.المطور',
+                            id: '.المطور'
+                          },
+                            {
                             header: '❯⏐اوامـر الـجـروبـات↞📜',
                             title: '.ميزو1',
                             description: '',
