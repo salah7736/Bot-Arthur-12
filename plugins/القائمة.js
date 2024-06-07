@@ -1,4 +1,7 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
+    
+    conn.sendFile(m.chat, 'https://telegra.ph/file/fcb03ca7c027822e545e2.jpg', 'image.jpg', message, m);
+};
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
         message: {
