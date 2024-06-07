@@ -2,29 +2,29 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.math = conn.math ? conn.math : {}
     
     if (args.length < 1) throw `
-  🧮 الصعوبات المتاحة : 
+  *↞⎔〖🧮 الصعوبات المتاحة :〗* 
   
 ${Object.keys(modes).join(' | ')} 
 
-_📌مثال : ${usedPrefix+command} عادي_
+*˼‏❖˹┇⇠『 📌مثال : ${usedPrefix+command} عادي』*
 `.trim()
   let mode = args[0].toLowerCase()
   if (!(mode in modes)) throw `
-  🧮 الصعوبات المتاحة : 
+  *↞⎔〖🧮 الصعوبات المتاحة :〗* 
   
  ${Object.keys(modes).join(' | ')}
 
-_📌مثال : ${usedPrefix+command} عادي_
+*˼‏❖˹┇⇠『 📌مثال : ${usedPrefix+command} عادي』*
 `.trim()
     
   let id = m.chat
     if (id in conn.math) return conn.reply(m.chat, '*┃⚠️ لا تزال هناك أسئلة دون إجابة في هذه الدردشة┃*', conn.math[id][0])
     let math = genMath(mode)
     conn.math[id] = [
-        await conn.reply(m.chat, `احسب${math.str}*=\n\n_الوقت:_ ${(math.time / 1000).toFixed(2)} ثواني\n\n🎁 جائزة : ${math.bonus} XP`, m),
+        await conn.reply(m.chat, `*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n*〄↞┇احسب${math.str}=┇*\n\n*〄↞┇الوقت:${(math.time / 1000).toFixed(2)} ثواني┇*\n\n*〄↞┇🎁 جائزة : ${math.bonus} XP┇*\n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*`, m),
         math, 4,
         setTimeout(() => {
-            if (conn.math[id]) conn.reply(m.chat, `⏳ أنتهى الوقت!\nالإجابة هي : *${math.result}*`, conn.math[id][0])
+            if (conn.math[id]) conn.reply(m.chat, `⏳ أنتهى الوقت!\nالإجابة هي :*${math.result}*`, conn.math[id][0])
       delete conn.math[id]
         }, math.time)
     ]
