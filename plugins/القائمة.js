@@ -1,7 +1,4 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-    
-    conn.sendFile(m.chat, 'https://telegra.ph/file/fcb03ca7c027822e545e2.jpg', 'image.jpg', message, m);
-};
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
         message: {
@@ -21,7 +18,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                     sections: [
                       {
                         title: 'List',
-                        highlight_label: 'بوت',
+                        highlight_label: '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁',
                         rows: [
                             {
                             header: '❯⏐اوامـر الـجـروبـات↞📜',
@@ -112,6 +109,6 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['القائمة']
+handler.command = ['اوامر|القائمة']
 
 export default handler
