@@ -10,12 +10,12 @@ let handler = async (m, { conn, command, usedPrefix }) => {
     }
     let src = await (await fetch('https://raw.githubusercontent.com/Hjfjckb/Kurosaki/main/Kurosaki.json')).json()
   let json = src[Math.floor(Math.random() * src.length)]
-    let caption = `*˼‏❖˹┇⇠『${command.toUpperCase()}』*
+    let caption = `*˼‏❖˹┇⇠『السؤال ${command.toUpperCase()}』*
 *「✧|────✦❯◇❮✦────|✧」*
-  *〄↞┇الـوقـت⏱️↞ *${(timeout / 1000).toFixed(2)}┇
-  *〄↞┇الـجـائـزة🎖↞ ${poin}┇
+  *〄↞┇الـوقـت⏱️↞ *${(timeout / 1000).toFixed(2)}┇*
+  *〄↞┇الـجـائـزة🎖↞ ${poin}┇*
 *「✧|────✦❯◇❮✦────|✧」*
-> استخدم .انسحب للأنسحاب‼️
+> استخدم انسحب للأنسحاب‼️
 *✧━ • ━ 「 ✤ 」 ━ • ━✧*
 > ❯⏐ 𝐵𝛩𝑇 𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴
      `.trim()
