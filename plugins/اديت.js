@@ -1,6 +1,6 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
 
-await conn.sendMessage(m.chat, { video: { url: dir[Math.floor(Math.random() * dir.length)] }, caption: `*「✧|────✦❯l◇l❮✦────|✧」*\n\n*🚫┃الفيديو يوجد فيه موسيقي┃🚫*\n\n*「✧|────✦❯l◇l❮✦────|✧」*` }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: dir[Math.floor(Math.random() * dir.length)] }, caption: `*「✧|────✦❯◇❮✦────|✧」*\n\n*🚫┃الفيديو يوجد فيه موسيقي┃🚫*\n\n*「✧|────✦❯◇❮✦────|✧」*` }, { quoted: m })
 
 }
 
