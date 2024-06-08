@@ -8,8 +8,9 @@ let handler = m => m;
    let chat = global.db.data.chats[m.chat]; 
    let responses; 
    if (/^ميزوهارا$/i.test(m.text)) { 
-     responses = [ 
- '*عيون ميزوهارا*'${taguser}  
+     responses = [ '
+  ${taguser}
+  '*عيون ميزوهارا* 
      ]; 
 } else if (/^السلام عليكم|سلام عليكم ورحمه الله وبركاته|سلام عليكم|السلام عليكم ورحمه الله وبركاته$/i.test(m.text)) { 
      responses = [ 
