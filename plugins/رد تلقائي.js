@@ -9,7 +9,7 @@ let handler = m => m;
    let responses; 
    if (/^ميزوهارا$/i.test(m.text)) { 
      responses = [ 
- '*عيون ميزوهارا*'  
+ '*عيون ميزوهارا*'${taguser}  
      ]; 
 } else if (/^السلام عليكم|سلام عليكم ورحمه الله وبركاته|سلام عليكم|السلام عليكم ورحمه الله وبركاته$/i.test(m.text)) { 
      responses = [ 
