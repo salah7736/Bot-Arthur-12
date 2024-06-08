@@ -1,4 +1,3 @@
-
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
@@ -10,27 +9,21 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             body: {
               text: '*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n *〄┃قائمـة الـاوامـر ┃↞ ❮ 🔮 ❯* \n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n> لا تنسى قبل كل امر حط نقطة❗\n> راسل المطور اذا حدث اي عطل🧿'
             },
+              {    
+             github: [
+          {patreon:}'https://telegra.ph/file/62094c8a404db00b7bf9b.jpg'
+             ],
             nativeFlowMessage: {
               buttons: [
-                  {
+                {
                   name: 'single_select',
                   buttonParamsJson: JSON.stringify({
                     title: 'دوس للقائمة',
                     sections: [
-                   {
-                  name: 'single_select',
-                  buttonParamsJson: JSON.stringify({
-                    title: 'دوس للقائمة',
-                    id: '.المطور'
-                      ,]  
+                      {
                         title: 'List',
                         highlight_label: 'بوت',
                         rows: [
-                            {
-                            name: 'single_select',
-                            title: '.المطور',
-                            id: '.المطور'
-                          },
                             {
                             header: '❯⏐اوامـر الـجـروبـات↞📜',
                             title: '.ميزو1',
