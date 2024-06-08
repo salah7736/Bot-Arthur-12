@@ -9,10 +9,6 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             body: {
               text: '*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n *〄┃قائمـة الـاوامـر ┃↞ ❮ 🔮 ❯* \n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n> لا تنسى قبل كل امر حط نقطة❗\n> راسل المطور اذا حدث اي عطل🧿'
             },
-              {    
-             github: [
-          {patreon:}'https://telegra.ph/file/62094c8a404db00b7bf9b.jpg'
-             ],
             nativeFlowMessage: {
               buttons: [
                 {
@@ -113,6 +109,6 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['القائمة']
+handler.command = ['القائمة|اوامر']
 
 export default handler
