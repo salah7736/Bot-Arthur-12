@@ -1,9 +1,4 @@
-let handler = async (m, { conn }) => {
-    let user = global.db.data.users[m.sender];
-    let name = conn.getName(m.sender);
-    let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
-    conn.sendFile(m.chat, 'https://telegra.ph/file/fcb03ca7c027822e545e2.jpg', 'image.jpg', message, m);
-};
+
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
@@ -17,7 +12,12 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             },
             nativeFlowMessage: {
               buttons: [
-                {
+                  {
+                  name: 'single_select',
+                  buttonParamsJson: JSON.stringify({
+                    title: 'دوس للقائمة',
+                    sections: [
+                   {
                   name: 'single_select',
                   buttonParamsJson: JSON.stringify({
                     title: 'دوس للقائمة',
