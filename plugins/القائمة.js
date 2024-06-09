@@ -3,14 +3,15 @@ import { prepareWAMessageMedia, generateWAMessageFromContent, getDevice } from '
 
 const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const device = await getDevice(m.key.id);
+    const mentionId = m.key.participant || m.key.remoteJid;
 
     if (device !== 'desktop' || device !== 'web') {      
-        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/2784677013ba9efe6cc03.jpg'}}, { upload: conn.waUploadToServer })
+        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/099294db2f81baae9f1dc.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: `test`.trim() },
-            footer: { text: `©JoAnimi for test`.trim() },  
+            footer: { text: `> جميع الاوامر قم بختيار اي امر🏷\n> افتح القائمة بالضغط على الزر☘️\n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n*〄┃قائمـة الـاوامـر ┃↞ ❮ 🔮 ❯* \n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n> لا تنسى قبل كل امر تحط نقطة❗\n> راسل المطور اذا حدث اي عطل🧿`.trim() },  
             header: {
-                title: `test`,
+                title: `*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*\n @${mentionId.split('@')[0]}\n*╮─────✦❯┇💎┇❮✦─────╭*\n*〄┃ بـووت ↞ 🎀『 مـيزوهـارا 』*\n*〄┃وقت التشغيل ↞ ⌛『 دائم』*\n*〄┃وضـع الـبوت ↞ 🪧『 عـام 』*\n*〄┃الـمـنـصـه ↞ 🌐『 هـيـروكـو』*\n*╯─────✦❯┇💎┇❮✦─────╰*\n❯⏐ 𝐵𝛩𝑇 𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴\n*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*`,
                 subtitle: `test`,
                 hasMediaAttachment: true,
                 imageMessage: joanimiimg.imageMessage,
@@ -20,17 +21,17 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   							{
   								name: 'single_select',
   						  	buttonParamsJson: JSON.stringify({
-  						  		title: 'Click Me',
+  						  		title: 'القائمة',
   						  		sections: [
   						  			{
   						  				title: 'List',
   							  	    highlight_label: 'ON',
   						  		    rows: [
   						  		    	{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'test'
+  						  		    		header: 'قسم الاوامر',
+  										      title: '.ميزو1',
+  									    	  description: '',
+  								    		  id: 'tesy'
   						  		    	}
   						  		    ]
   						  			},
@@ -52,7 +53,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    		header: 'Test',
   										      title: 'Click Me',
   									    	  description: 'Click Me',
-  								    		  id: 'te'
+  								    		  id: '.ميزو'
   						  		    	}
   						  				]
   						  			}
@@ -60,18 +61,18 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  	})
   							},
                               {
-                                  name: 'quick_reply',
+                                  name: 'قسم المطور',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: 'quick_reply',
-                                      id: `message`
+                                      display_text: 'قسم المطور',
+                                      id: `.المطور`
                                   })
                               },
                               {
                                   name: 'cta_url',
                                   buttonParamsJson: JSON.stringify({
                                       display_text: 'url',
-                                      url: 'https://www.google.com',
-                                      merchant_url: ''
+                                      url: '',
+                                      merchant_url: 'https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W'
                                   })
                               },
                               {
@@ -85,7 +86,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                                   name: 'cta_copy',
                                   buttonParamsJson: JSON.stringify({
                                       display_text: 'copy',
-                                      id: '123456789',
+                                      id: '967773685143',
                                       copy_code: 'message'
                                   })
                               },
@@ -127,7 +128,8 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                 },
             },
         }, { userJid: conn.user.jid, quoted: m })
-        conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id});
+        msg.message.viewOnceMessage.message.interactiveMessage.contextInfo = { mentionedJid: [mentionId] };
+        conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
 
     } else {
         conn.sendFile(m.chat, 'JoAnimi•Error.jpg', m);      
