@@ -9,10 +9,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/099294db2f81baae9f1dc.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: `test`.trim() },
-            footer: { text: `> جميع الاوامر قم بختيار اي امر🏷\n> افتح القائمة بالضغط على الزر☘️\n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n*〄┃قائمـة الـاوامـر ┃↞ ❮ 🔮 ❯* \n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n> لا تنسى قبل كل امر تحط نقطة❗\n> راسل المطور اذا حدث اي عطل🧿`.trim() },  
+            footer: { text: `*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n*〄┃قائمـة الـاوامـر ┃↞ ❮ 🔮 ❯* \n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n > لا تنسى قبل كل امر تحط نقطة❗\n> راسل المطور اذا حدث اي عطل🧿`.trim() },  
             header: {
-                title: `*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*\n @${mentionId.split('@')[0]}\n*╮─────✦❯┇💎┇❮✦─────╭*\n*〄┃ بـووت ↞ 🎀『 مـيزوهـارا 』*\n*〄┃وقت التشغيل ↞ ⌛『 دائم』*\n*〄┃وضـع الـبوت ↞ 🪧『 عـام 』*\n*〄┃الـمـنـصـه ↞ 🌐『 هـيـروكـو』*\n*╯─────✦❯┇💎┇❮✦─────╰*\n❯⏐ 𝐵𝛩𝑇 𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴\n*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*`,
-                subtitle: `test`,
+                title: `*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*\n˼‏❖˹┇⇠『 @${mentionId.split('@')[0]}』\n*╮─────✦❯┇💎┇❮✦─────╭*\n*〄┃ بـووت ↞ 🎀『 مـيزوهـارا 』*\n*〄┃وقت التشغيل ↞ ⌛『 دائم』*\n*〄┃وضـع الـبوت ↞ 🪧『 عـام 』*\n*〄┃الـمـنـصـه ↞ 🌐『 هـيـروكـو』*\n*╯─────✦❯┇💎┇❮✦─────╰*\n❯⏐ 𝐵𝛩𝑇 𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴\n*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*`,
+                subtitle: `> جميع الاوامر قم بختيار اي امر🏷\n> افتح القائمة بالضغط على الزر☘️`,
                 hasMediaAttachment: true,
                 imageMessage: joanimiimg.imageMessage,
             },
@@ -63,30 +63,30 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                               {
                                   name: 'قسم المطور',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: 'قسم المطور',
-                                      id: `.المطور`
+                                      display_text: '',
+                                      id: `https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W`
                                   })
                               },
                               {
                                   name: 'cta_url',
                                   buttonParamsJson: JSON.stringify({
                                       display_text: 'url',
-                                      url: '',
-                                      merchant_url: 'https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W'
+                                      url: '773 685 143',
+                                      merchant_url: ''
                                   })
                               },
                               {
                                   name: 'cta_call',
                                   buttonParamsJson: JSON.stringify({
                                       display_text: 'call',
-                                      id: 'message'
+                                      id: 'مطور'
                                   })
                               },
                               {
                                   name: 'cta_copy',
                                   buttonParamsJson: JSON.stringify({
                                       display_text: 'copy',
-                                      id: '967773685143',
+                                      id: 'https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W',
                                       copy_code: 'message'
                                   })
                               },
@@ -94,14 +94,14 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                                   name: 'cta_reminder',
                                   buttonParamsJson: JSON.stringify({
                                       display_text: 'cta_reminder',
-                                      id: 'message'
+                                      id: 'كت'
                                   })
                               },
                               {
                                   name: 'cta_cancel_reminder',
                                   buttonParamsJson: JSON.stringify({
                                       display_text: 'cta_cancel_reminder',
-                                      id: 'message'
+                                      id: 'ايرين'
                                   })
                               },
                               {
