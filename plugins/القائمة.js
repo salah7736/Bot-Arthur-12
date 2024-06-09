@@ -1,10 +1,8 @@
 
-
 import { prepareWAMessageMedia, generateWAMessageFromContent, getDevice } from '@whiskeysockets/baileys'
 
 const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const device = await getDevice(m.key.id);
-    const mentionId = m.key.participant || m.key.remoteJid;
 
     if (device !== 'desktop' || device !== 'web') {      
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/2784677013ba9efe6cc03.jpg'}}, { upload: conn.waUploadToServer })
@@ -12,7 +10,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
             body: { text: `test`.trim() },
             footer: { text: `©JoAnimi for test`.trim() },  
             header: {
-                title: `test hi @${mentionId.split('@')[0]}`,
+                title: `test`,
                 subtitle: `test`,
                 hasMediaAttachment: true,
                 imageMessage: joanimiimg.imageMessage,
@@ -129,8 +127,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                 },
             },
         }, { userJid: conn.user.jid, quoted: m })
-        msg.message.viewOnceMessage.message.interactiveMessage.contextInfo = { mentionedJid: [mentionId] };
-        conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
+        conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id});
 
     } else {
         conn.sendFile(m.chat, 'JoAnimi•Error.jpg', m);      
