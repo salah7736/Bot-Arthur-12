@@ -12,7 +12,7 @@ let handler = async (m, { conn, args, usedPrefix, text, command }) => {
     ]
     let [feature, inputs, inputs_, inputs__, inputs___] = text.split(" ")
    // if (!lister.includes(feature)) return conn.reply(m.chat, `*🚩 Ingresa el formato en que deseas descargar más el titulo de un video o musica de YouTube.*\n\nEjemplo : ${usedPrefix + command} *mp3* SUICIDAL-IDOL - ecstacy\n\nFormatos disponibles :\n${usedPrefix + command} *mp3*\n${usedPrefix + command} *mp3doc*\n${usedPrefix + command} *mp4*\n${usedPrefix + command} *mp4doc*`,  m, fake,)
-	  if (command == "غنيه" || command == 'play2') {
+	  if (command == "اغنيه" || command == 'play2') {
             if (!text) return conn.reply(m.chat, `*🚩 أدخل عنوان مقطع فيديو أو موسيقى*`,  m)
     await m.react('🕓')
     var res = await yts(text)
@@ -29,7 +29,7 @@ const texto1 = `اغــنيــههة 乂 يـوتـيـوب\n
 await conn.sendButton(m.chat, texto1, wm, res.videos[0].thumbnail, [
 	['الصوت 📀', `${usedPrefix}mp3 ${text}`],
 	['الفيديو 🎥', `${usedPrefix}mp4 ${text}`]
-  ], null, [['قناتي ⚡', `https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W`]], m)
+  ], null, [['قناتي ⚡', `https://whatsapp.com/channel/0029VaRygQcATRSk29RI4P1x`]], m)
 	  }
   
             if (command == "mp3") {
@@ -98,7 +98,7 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
 await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 	['Creador', `${usedPrefix}creador`],
 	['Menu', `${usedPrefix}menu`]
-  ], null, [['قناتي ⚡', `https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W`]], m)
+  ], null, [['قناتي ⚡', `${channel}`]], m)
        */
        try {
        let yt = await fg.ytv(vid.url, q)
@@ -141,7 +141,7 @@ if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`يزن الملف أ
 await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 	['Creador', `${usedPrefix}creador`],
 	['Menu', `${usedPrefix}menu`]
-  ], null, [['قناتي ⚡', `https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W`]], m)
+  ], null, [['قناتي ⚡', `${channel}`]], m)
 	    */
        try {
        let yt = await fg.yta(vid.url, q)
@@ -202,7 +202,7 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
 await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 	['Creador', `${usedPrefix}creador`],
 	['Menu', `${usedPrefix}menu`]
-  ], null, [['قناتي ⚡', `https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W`]], m)
+  ], null, [['قناتي ⚡', `${channel}`]], m)
   */
        
        try {
@@ -249,6 +249,6 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
 }
 handler.help = ["play"].map(v => v + " <formato> <búsqueda>")
 handler.tags = ["downloader"]
-handler.command = ['غنية', 'غنيه', 'اغنية', 'mp4', 'mp3doc', 'mp4doc']
+handler.command = ['اغنيه', 'play2', 'mp3', 'mp4', 'mp3doc', 'mp4doc']
 handler.star = 2
 export default handler
