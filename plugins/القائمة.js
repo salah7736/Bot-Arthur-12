@@ -3,8 +3,9 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let user = global.db.data.users[m.sender];
     let name = conn.getName(m.sender);
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
-        
-    conn.sendFile(m.chat, 'https://telegra.ph/file/280978fedc8d6d44250c2.jpg', 'image.jpg', message, m);
+    let message = `*${taguser}*\n*مـزة كيميتسو❄️*`;
+
+    conn.sendFile(m.chat, 'https://telegra.ph/file/03bef07dfae8c091fec04.jpg', 'image.jpg', message, m);
 };
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
