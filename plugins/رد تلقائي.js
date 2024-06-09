@@ -23,7 +23,7 @@ let handler = m => m;
      responses = [ 
 '*ياعيوني متزعليش🥺*'
      ]; 
-   }else if (/^بروح|اعتزلت$/i.test(m.text)) { 
+   }else if (/^بروح$/i.test(m.text)) { 
      responses = [ 
 '*احسن ريحنا منك*'
    ]; 
@@ -49,7 +49,7 @@ let handler = m => m;
        '*حد ناداك*',  
 
      ]; 
-   }else if (/^عمك|عمتك$/i.test(m.text)) { 
+   }else if (/^عمك$/i.test(m.text)) { 
      responses = [ 
 'تقصدني صح🤭'
      ]; 
