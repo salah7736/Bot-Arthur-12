@@ -6,8 +6,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let message = `*${taguser}*\n*مـزة كيميتسو❄️*`;
 
     conn.sendFile(m.chat, 'https://telegra.ph/file/03bef07dfae8c091fec04.jpg', 'image.jpg', message, m);
-};
-    conn.relayMessage(m.chat, {
+,{
       viewOnceMessage: {
         message: {
           interactiveMessage: {
