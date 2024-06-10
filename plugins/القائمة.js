@@ -8,8 +8,8 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     if (device !== 'desktop' || device !== 'web') {      
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/099294db2f81baae9f1dc.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
-            body: { text: `ميمي`.trim() },
-            footer: { text: `*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n*〄┃قائمـة الـاوامـر ┃↞ ❮ 🔮 ❯* \n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n > لا تنسى قبل كل امر تحط نقطة❗\n> راسل المطور اذا حدث اي عطل🧿`.trim() },  
+            body: { text: `*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n*〄┃قائمـة الـاوامـر ┃↞ ❮ 🔮 ❯* \n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*`.trim() },
+            footer: { text: ` > لا تنسى قبل كل امر تحط نقطة❗\n> راسل المطور اذا حدث اي عطل🧿`.trim() },  
             header: {
                 title: `*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*\n˼‏❖˹┇⇠『 @${mentionId.split('@')[0]}』\n*╮─────✦❯┇💎┇❮✦─────╭*\n*〄┃ بـووت ↞ 🎀『 مـيزوهـارا 』*\n*〄┃وقت التشغيل ↞ ⌛『 دائم』*\n*〄┃وضـع الـبوت ↞ 🪧『 عـام 』*\n*〄┃الـمـنـصـه ↞ 🌐『 هـيـروكـو』*\n*╯─────✦❯┇💎┇❮✦─────╰*\n❯⏐ 𝐵𝛩𝑇 𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴\n*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*\n> جميع الاوامر قم بختيار اي امر🏷\n> افتح القائمة بالضغط على الزر☘️`,
                 subtitle: ``,
@@ -161,16 +161,16 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  	})
   							},
                               {
-                                  name: 'قسم المطور',
+                                  name: 'المطور',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '',
-                                      id: `بوت`
+                                      display_text: '.المطور',
+                                      id: `.المطور`
                                   })
                               },
                               {
                                   name: 'cta_url',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: 'url',
+                                      display_text: 'https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W',
                                       url: 'https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W',
                                       merchant_url: ''
                                   })
@@ -178,15 +178,15 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                               {
                                   name: 'cta_call',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: 'call',
-                                      id: '.مطور'
+                                      display_text: '+967773685143',
+                                      id: '+967773685143'
                                   })
                               },
                               {
                                   name: 'cta_copy',
                                   buttonParamsJson: JSON.stringify({
                                       display_text: 'copy',
-                                      id: 'https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W',
+                                      id: '+967773685143',
                                       copy_code: 'message'
                                   })
                               },
@@ -211,11 +211,6 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                                       id: 'message'
                                   })
                               },
-                              {
-                                  name: 'send_location',
-                                  buttonParamsJson: JSON.stringify({
-                                  })
-                              }
   			  		],
                 messageParamsJson: ''
             }
