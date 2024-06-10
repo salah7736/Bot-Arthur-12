@@ -105,9 +105,9 @@ let handler = async (m, { conn }) => {
     name: 'quick_reply',
    buttonParamsJson: JSON.stringify({
    display_text: 'التالي',
-   id: `التالي`
+   id: `بنت`
    })
- },
+  }
 handler.help = ['dado']
 handler.tags = ['game']
 handler.command = ['بنت', 'dados'] 
