@@ -93,9 +93,9 @@ conn.sendMessage(m.chat, {
   gifPlayback: true,gifAttribution: 0
     }, { quoted: m });
 }; 
-handler.help = ['المهام']
-handler.tags = ['اوامر']
-handler.command = ['الاوامر'] 
+handler.help = ['hhwv']
+handler.tags = ['hhs']
+handler.command = ['hhwv'] 
 
 export default handler
 function clockString(ms) {
