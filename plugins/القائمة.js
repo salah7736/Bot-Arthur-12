@@ -161,7 +161,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  	})
   							},
                               {
-                                  name: 'المطور',
+                                  name: 'quick_reply',
                                   buttonParamsJson: JSON.stringify({
                                       display_text: '.المطور',
                                       id: `.المطور`
@@ -170,45 +170,16 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                               {
                                   name: 'cta_url',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: 'https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W',
+                                      display_text: 'قناني المطور',
                                       url: 'https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W',
-                                      merchant_url: ''
+                                      merchant_url: 'https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W'
                                   })
                               },
                               {
                                   name: 'cta_call',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '+967773685143',
+                                      display_text: 'رقمي',
                                       id: '+967773685143'
-                                  })
-                              },
-                              {
-                                  name: 'cta_copy',
-                                  buttonParamsJson: JSON.stringify({
-                                      display_text: 'copy',
-                                      id: '+967773685143',
-                                      copy_code: 'message'
-                                  })
-                              },
-                              {
-                                  name: 'cta_reminder',
-                                  buttonParamsJson: JSON.stringify({
-                                      display_text: 'cta_reminder',
-                                      id: 'كت'
-                                  })
-                              },
-                              {
-                                  name: 'cta_cancel_reminder',
-                                  buttonParamsJson: JSON.stringify({
-                                      display_text: 'cta_cancel_reminder',
-                                      id: 'ايرين'
-                                  })
-                              },
-                              {
-                                  name: 'address_message',
-                                  buttonParamsJson: JSON.stringify({
-                                      display_text: 'address_message',
-                                      id: 'message'
                                   })
                               },
   			  		],
