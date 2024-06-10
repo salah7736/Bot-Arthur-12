@@ -104,8 +104,8 @@ let handler = async (m, { conn }) => {
   {
     name: 'quick_reply',
    buttonParamsJson: JSON.stringify({
-   display_text: 'quick_reply',
-   id: `بنت`,
+   display_text: 'التالي',
+   id: `التالي`
    })
  },
 handler.help = ['dado']
