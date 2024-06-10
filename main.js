@@ -54,9 +54,9 @@ global.prefix = new RegExp('^[' + (opts['prefix'] || '*/i!#$%+£¢€¥^°=¶∆
 
 global.db = new Low(/https?:\/\//.test(opts['db'] || '') ? new cloudDBAdapter(opts['db']) : new JSONFile(`${opts._[0] ? opts._[0] + '_' : ''}database.json`));
 
+
 import firebaseAdmin from 'firebase-admin';
 
-// save database >>
 function loadDataAndReplaceInvalidKeys() {
     const data = JSON.parse(readFileSync('database.json', 'utf8'));
     return replaceInvalidKeys(data);
@@ -76,7 +76,7 @@ function replaceInvalidKeys(obj) {
     return newObj;
 }
 
-const serviceAccount = JSON.parse(readFileSync('./firebase-key.json', 'utf8')); // تحميل المفتاح كـ JSON
+const serviceAccount = JSON.parse(readFileSync('./firebase-key.json', 'utf8')); 
 const id = serviceAccount.project_id
 firebaseAdmin.initializeApp({
     credential: firebaseAdmin.credential.cert(serviceAccount),
@@ -90,8 +90,8 @@ async function saveDataToFirebase() {
     console.log('Done Save database << 200')
 }
 
-// تنفيذ الكود كل دقيقة
 setInterval(saveDataToFirebase, 60000);
+
 
 
 global.DATABASE = global.db; 
