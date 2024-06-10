@@ -8,7 +8,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     if (device !== 'desktop' || device !== 'web') {      
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/099294db2f81baae9f1dc.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
-            body: { text: `test`.trim() },
+            body: { text: ``.trim() },
             footer: { text: `*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n*〄┃قائمـة الـاوامـر ┃↞ ❮ 🔮 ❯* \n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n > لا تنسى قبل كل امر تحط نقطة❗\n> راسل المطور اذا حدث اي عطل🧿`.trim() },  
             header: {
                 title: `*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*\n˼‏❖˹┇⇠『 @${mentionId.split('@')[0]}』\n*╮─────✦❯┇💎┇❮✦─────╭*\n*〄┃ بـووت ↞ 🎀『 مـيزوهـارا 』*\n*〄┃وقت التشغيل ↞ ⌛『 دائم』*\n*〄┃وضـع الـبوت ↞ 🪧『 عـام 』*\n*〄┃الـمـنـصـه ↞ 🌐『 هـيـروكـو』*\n*╯─────✦❯┇💎┇❮✦─────╰*\n❯⏐ 𝐵𝛩𝑇 𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴\n*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*`,
@@ -28,103 +28,76 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   							  	    highlight_label: 'ON',
   						  		    rows: [
                                         {
-  						  				highlight_label: 'ON',
-  						  				rows: [
-  						  					{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'toes'
+  						  		    		header: 'قسم الاوامر',
+  										      title: '.ميزو1',
+  									    	  description: '',
+  								    		  id: '.ميزو12'
   						  		    	}
-  						  				]
+  						  		    ]
   						  			},
-                                        {
-  						  				highlight_label: 'ON',
-  						  				rows: [
-  						  					{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'tehs'
+                                    {
+  						  		    		header: 'قسم الاوامر',
+  										      title: '.ميزو1',
+  									    	  description: '',
+  								    		  id: '.ميزو10'
   						  		    	}
-  						  				]
+  						  		    ]
   						  			},
-                                        {
-  						  				highlight_label: 'ON',
-  						  				rows: [
-  						  					{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'tpes'
+                                                             {
+  						  		    		header: 'قسم الاوامر',
+  										      title: '.ميزو1',
+  									    	  description: '',
+  								    		  id: '.ميزو4'
   						  		    	}
-  						  				]
+  						  		    ]
   						  			},
-                                        {
-  						  				highlight_label: 'ON',
-  						  				rows: [
-  						  					{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'tbes'
+                            {
+  						  		    		header: 'قسم الاوامر',
+  										      title: '.ميزو1',
+  									    	  description: '',
+  								    		  id: '.ميزو11'
   						  		    	}
-  						  				]
+  						  		    ]
   						  			},
-                                        {
-  						  				highlight_label: 'ON',
-  						  				rows: [
-  						  					{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'tmes'
+                                 
+  						  		    		header: 'قسم الاوامر',
+  										      title: '.ميزو1',
+  									    	  description: '',
+  								    		  id: 'ميزو9'
   						  		    	}
-  						  				]
+  						  		    ]
   						  			},
-                                        {
-  						  				highlight_label: 'ON',
-  						  				rows: [
-  						  					{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'tels'
+    {
+  						  		    		header: 'قسم الاوامر',
+  										      title: '.ميزو1',
+  									    	  description: '',
+  								    		  id: '.ميزو7'
   						  		    	}
-  						  				]
+  						  		    ]
   						  			},
-                                        {
-  						  				highlight_label: 'ON',
-  						  				rows: [
-  						  					{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'tfes'
+        {
+  						  		    		header: 'قسم الاوامر',
+  										      title: '.ميزو1',
+  									    	  description: '',
+  								    		  id: '.6ميزو'
   						  		    	}
-  						  				]
+  						  		    ]
   						  			},
-                                        {
-  						  				highlight_label: 'ON',
-  						  				rows: [
-  						  					{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'txes'
+        {
+  						  		    		header: 'قسم الاوامر',
+  										      title: '.ميزو1',
+  									    	  description: '',
+  								    		  id: 'ميزو.2'
   						  		    	}
-  						  				]
+  						  		    ]
   						  			},
-                                        {
-  						  				highlight_label: 'ON',
-  						  				rows: [
-  						  					{
-  						  		    		header: 'Test',
-  										      title: 'Click Me',
-  									    	  description: 'Click Me',
-  								    		  id: 'tves'
+        {
+  						  		    		header: 'قسم الاوامر',
+  										      title: '.ميزو1',
+  									    	  description: '',
+  								    		  id: '.ميزو2'
   						  		    	}
-  						  				]
+  						  		    ]
   						  			},
   						  		    	{
   						  		    		header: 'قسم الاوامر',
