@@ -19,7 +19,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPr
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let videoUrl = 'https://telegra.ph/file/7abf2bb2fdf77244ceebe.mp4';
+let videoUrl = 'https://telegra.ph/file/a3c545b69f90bcb114930.mp4';
   let vn = './media/menu.mp3';
   const user = global.db.data.users[m.sender];
   const {money, joincount} = global.db.data.users[m.sender];
@@ -39,18 +39,20 @@ let str = `
 
 *✦━━✤━ –⊰ ❖ ⊱– ━✤━━✦*
 *❐┃ أهـلا وسـهـلاً بـك يـا ${taguser}
-*❐┃ إسـم الـبـوت ↞『ايـريـن』┃*
+*❐┃ إسـم الـبـوت ↞『ميزوهارا』┃*
 *❐┃إسـم الـمـنـصـة ↞『هـيـروكـو』*
-*❐┃ الـمـطـور ↞ ┃𝑬𝑹𝑬𝑵_ 𝑩𝑶𝑻┃↞⎔*
-*❐┃عـدد الـمـسـتـخـدمـيـن ${rtotalreg}
-*❐┃وقـت الـتـشـغـيـل ${uptime}
-*❐┃الـتـوقـيـت ${date}
+*❐┃ الـمـطـور ↞ 𝑨𝑹𝑻𝑯𝑼𝑹*
+*❐┃عـدد الـمـسـتـخـدمـيـن ${rtotalreg}*
+*❐┃وقـت الـتـشـغـيـل ${uptime}*
+*❐┃الـتـوقـيـت ${date}*
 *❐┃ الـإصـدار الـجـديـد ↞『v.1』*
+*❐┃  للابلاغ عن خلل للمطور اكتب ↞『.بلاغ』*
 *❐┃لـطـلـب قـائـمـة الـأوامـر إكـتـب ↞『.الاوامر』*
-*✦━━✤━ –⊰ ❖ ⊱– ━✤━━✦*
+*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*
 مـلاحـظـة┇❗️❯*
-*❮❗️┇يـجـب عـلـيـك كـتـابـة نـقـطـة قـبـل كـل أمـر مـثـل 
- *『اعــرف.』↞*
+ > ❮❗️┇يـجـب عـلـيـك كـتـابـة نـقـطـة قـبـل كـل أمـر مـثـل 
+ 『اعــرف.』↞
+*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*
 ‬`.trim();
 
 conn.sendMessage(m.chat, {
