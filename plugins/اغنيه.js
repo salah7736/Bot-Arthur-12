@@ -29,10 +29,8 @@ const texto1 = `اغــنيــههة 乂 يـوتـيـوب\n
 await conn.sendButton(m.chat, texto1, wm, res.videos[0].thumbnail, [
 	['الصوت 📀', `${usedPrefix}mp3 ${text}`],
 	['الفيديو 🎥', `${usedPrefix}mp4 ${text}`]
-  ], null, [['قناتي ⚡', `https://whatsapp.com/channel/0029VaenWxX0AgWDJwlaWG0W`]], m)
-	  }
-  
-            if (command == "mp3") {
+           
+	if (command == "mp3") {
 	 if (!text) return conn.reply(m.chat, `*🚩 أدخل عنوان مقطع فيديو أو موسيقى*`, m)
 		
        try {
