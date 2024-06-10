@@ -14,7 +14,6 @@ let handler = async (m, { conn, args, usedPrefix, text, command }) => {
    // if (!lister.includes(feature)) return conn.reply(m.chat, `*🚩 Ingresa el formato en que deseas descargar más el titulo de un video o musica de YouTube.*\n\nEjemplo : ${usedPrefix + command} *mp3* SUICIDAL-IDOL - ecstacy\n\nFormatos disponibles :\n${usedPrefix + command} *mp3*\n${usedPrefix + command} *mp3doc*\n${usedPrefix + command} *mp4*\n${usedPrefix + command} *mp4doc*`,  m, fake,)
 	  if (command == "اغنية" || command == 'play2') {
             if (!text) return conn.reply(m.chat, `*🚩 أدخل عنوان مقطع فيديو أو موسيقى*`,  m)
-    await ('🕓')
     var res = await yts(text)
     var vid = res.videos[0]
     var q = '128kbps'
@@ -55,7 +54,6 @@ body: `${vid.author.name}`,
 mediaType: 2, 
 sourceUrl: `${vid.url}`,
 thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
-       await ('✅')
        } catch {
        try {
        let yt = await fg.ytmp3(vid.url, q)
@@ -74,7 +72,6 @@ body: `${vid.author.name}`,
 mediaType: 2, 
 sourceUrl: `${vid.url}`,
 thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
-       await ('✅')
        } catch (error) {
         await conn.reply(m.chat,`*☓ Ocurrió un error inesperado*\n\n` + error, m, fake,).then(_ => ('✖️'))
         console.error(error)
@@ -83,7 +80,6 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
         
         if (command == "mp4") {
             if (!text) return conn.reply(m.chat, `*🚩 أدخل عنوان مقطع فيديو أو موسيقى*`, m)
-    await ('🕓')
     let res = await yts(text)
     let vid = res.videos[0]
     let q = '360p'
@@ -108,7 +104,6 @@ await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`يزن الملف أكثر من ${limit} ميغابايت، تم إلغاء التنزيل.`,  m, fake,).then(_ => ('✖️'))
        
        await conn.sendFile(m.chat, dl_url, 'yt.jpg', `${vid.title}\n⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻\n00:15 ━━━━●────── ${vid.timestamp}`, m)
-       await ('✅')
        } catch {
        try {
        let yt = await fg.ytmp4(vid.url, q)
@@ -118,7 +113,7 @@ if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`يزن الملف أ
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`يزن الملف أكثر من ${limit} ميغابايت، تم إلغاء التنزيل.`, m, fake,).then(_ => ('✖️'))
        
        await conn.sendFile(m.chat, dl_url, 'yt.jpg', `${vid.title}\n⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻\n00:15 ━━━━●────── ${vid.timestamp}`, m)
-       await ('✅')
+       
        } catch (error) {
         await conn.reply(m.chat,`*☓ Ocurrió un error inesperado*`, m).then(_ => ('✖️'))
         console.error(error)
@@ -126,7 +121,6 @@ if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`يزن الملف أ
     
     if (command == "mp3doc") {
             if (!inputs) return conn.reply(m.chat, `*🚩 أدخل عنوان مقطع فيديو أو موسيقى*`,  m)
-    await ('🕓')
     let res = await yts(text)
     let vid = res.videos[0]
     let q = '128kbps'
@@ -160,7 +154,6 @@ body: `${vid.author.name}`,
 mediaType: 2, 
 sourceUrl: `${vid.url}`,
 thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
-       await ('✅')
        } catch {
        try {
        let yt = await fg.ytmp3(vid.url, q)
@@ -179,7 +172,6 @@ body: `${vid.author.name}`,
 mediaType: 2, 
 sourceUrl: `${vid.url}`,
 thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
-       await ('✅')
        } catch (error) {
         await conn.reply(m.chat,`*☓ Ocurrió un error inesperado*`,  m, fake,).then(_ => ('✖️'))
         console.error(error)
@@ -187,7 +179,6 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
     
     if (command == "mp4doc") {
             if (!inputs) return conn.reply(m.chat, `*🚩 أدخل عنوان مقطع فيديو أو موسيقى*`, m)
-    await ('🕓')
     let res = await yts(text)
     let vid = res.videos[0]
     let q = '360p'
@@ -222,7 +213,6 @@ body: `${vid.author.name}`,
 mediaType: 2, 
 sourceUrl: `${vid.url}`,
 thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
-       await ('✅')
        } catch {
        try {
        let yt = await fg.ytmp4(vid.url, q)
@@ -241,9 +231,8 @@ body: `${vid.author.name}`,
 mediaType: 2, 
 sourceUrl: `${vid.url}`,
 thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
-       await ('✅')
        } catch (error) {
-        await conn.reply(m.chat,`*☓ Ocurrió un error inesperado*\n\n` + error, m).then(_ => m.react('✖️'))
+        await conn.reply(m.chat,`*☓ Ocurrió un error inesperado*\n\n` + error, m).then(_ => ('✖️'))
         console.error(error)
 }}}
 }
