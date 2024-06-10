@@ -100,14 +100,7 @@ const dir = [
 ];
 let handler = async (m, { conn }) => {
   conn.sendFile(m.chat, dir[Math.floor(Math.random() * dir.length)], 'dado.webp',    '      *انمي بنات نيكو💜💫*   *✦━━━━━⚡️━━━━━━✦*', m)
-},
-  {
-    name: 'quick_reply',
-   buttonParamsJson: JSON.stringify({
-   display_text: 'التالي',
-   id: `بنت`
-   })
-  }
+}
 handler.help = ['dado']
 handler.tags = ['game']
 handler.command = ['بنت', 'dados'] 
