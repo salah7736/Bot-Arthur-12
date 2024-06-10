@@ -4,14 +4,6 @@ let cristiano = (await axios.get(`https://raw.githubusercontent.com/Guru322/api/
 let ronaldo = await cristiano[Math.floor(cristiano.length * Math.random())]
 conn.sendFile(m.chat, ronaldo, 'error.jpg', `*siuuuuuuuuuu*`, m)}
 //conn.sendButton(m.chat, "*Siiiuuuuuu*", author, ronaldo, [['⚽ NEXT ⚽', `${usedPrefix + command}`]], m)}
-},
-{
-      name: 'quick_reply',
-     buttonParamsJson: JSON.stringify({
-    display_text: 'التالي',
-    id: `.رونالدو`
-  })
-},
 handler.help = ['cristianoronaldo', 'cr7']
 handler.tags = ['img']
 handler.command = /^(رونالدو|cr7)$/i
