@@ -203,5 +203,5 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
 };
 handler.help = ['الاوامر'];
 handler.tags = ['For Test'];
-handler.command = /^(الاوامر,اوامر)$/i;
+handler.command = /^(الاوامر)$/i;
 export default handler;
