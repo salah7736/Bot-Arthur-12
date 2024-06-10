@@ -8,7 +8,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     if (device !== 'desktop' || device !== 'web') {      
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/099294db2f81baae9f1dc.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
-            body: { text: ``.trim() },
+            body: { text: `test`.trim() },
             footer: { text: `*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n*〄┃قائمـة الـاوامـر ┃↞ ❮ 🔮 ❯* \n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n > لا تنسى قبل كل امر تحط نقطة❗\n> راسل المطور اذا حدث اي عطل🧿`.trim() },  
             header: {
                 title: `*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*\n˼‏❖˹┇⇠『 @${mentionId.split('@')[0]}』\n*╮─────✦❯┇💎┇❮✦─────╭*\n*〄┃ بـووت ↞ 🎀『 مـيزوهـارا 』*\n*〄┃وقت التشغيل ↞ ⌛『 دائم』*\n*〄┃وضـع الـبوت ↞ 🪧『 عـام 』*\n*〄┃الـمـنـصـه ↞ 🌐『 هـيـروكـو』*\n*╯─────✦❯┇💎┇❮✦─────╰*\n❯⏐ 𝐵𝛩𝑇 𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴\n*✧━━ • ━ 「 l✤l 」 ━ • ━━✧*`,
@@ -27,78 +27,6 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				title: 'List',
   							  	    highlight_label: 'ON',
   						  		    rows: [
-                                        {
-  						  		    		header: 'قسم الاوامر',
-  										      title: '.ميزو1',
-  									    	  description: '',
-  								    		  id: '.ميزو12'
-  						  		    	}
-  						  		    ]
-  						  			},
-                                    {
-  						  		    		header: 'قسم الاوامر',
-  										      title: '.ميزو1',
-  									    	  description: '',
-  								    		  id: '.ميزو10'
-  						  		    	}
-  						  		    ]
-  						  			},
-                                                             {
-  						  		    		header: 'قسم الاوامر',
-  										      title: '.ميزو1',
-  									    	  description: '',
-  								    		  id: '.ميزو4'
-  						  		    	}
-  						  		    ]
-  						  			},
-                            {
-  						  		    		header: 'قسم الاوامر',
-  										      title: '.ميزو1',
-  									    	  description: '',
-  								    		  id: '.ميزو11'
-  						  		    	}
-  						  		    ]
-  						  			},
-                                 
-  						  		    		header: 'قسم الاوامر',
-  										      title: '.ميزو1',
-  									    	  description: '',
-  								    		  id: 'ميزو9'
-  						  		    	}
-  						  		    ]
-  						  			},
-    {
-  						  		    		header: 'قسم الاوامر',
-  										      title: '.ميزو1',
-  									    	  description: '',
-  								    		  id: '.ميزو7'
-  						  		    	}
-  						  		    ]
-  						  			},
-        {
-  						  		    		header: 'قسم الاوامر',
-  										      title: '.ميزو1',
-  									    	  description: '',
-  								    		  id: '.6ميزو'
-  						  		    	}
-  						  		    ]
-  						  			},
-        {
-  						  		    		header: 'قسم الاوامر',
-  										      title: '.ميزو1',
-  									    	  description: '',
-  								    		  id: 'ميزو.2'
-  						  		    	}
-  						  		    ]
-  						  			},
-        {
-  						  		    		header: 'قسم الاوامر',
-  										      title: '.ميزو1',
-  									    	  description: '',
-  								    		  id: '.ميزو2'
-  						  		    	}
-  						  		    ]
-  						  			},
   						  		    	{
   						  		    		header: 'قسم الاوامر',
   										      title: '.ميزو1',
@@ -114,10 +42,110 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    		header: 'Test',
   										      title: 'Click Me',
   									    	  description: 'Click Me',
-  								    		  id: 'tes'
+  								    		  id: 'المطور'
   						  		    	}
   						  				]
   						  			},
+                                    {
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'Test',
+  										      title: 'Click Me',
+  									    	  description: 'Click Me',
+  								    		  id: '.بوت'
+  						  		    	}
+  						  				]
+  						  			},
+                                    {
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'Test',
+  										      title: 'Click Me',
+  									    	  description: 'Click Me',
+  								    		  id: 'tejs'
+  						  		    	}
+  						  				]
+  						  			},
+  						  	{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'Test',
+  										      title: 'Click Me',
+  									    	  description: 'Click Me',
+  								    		  id: '.ميزو12'
+  						  		    	}
+  						  				]
+  						  			},
+  						  	{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'Test',
+  										      title: 'Click Me',
+  									    	  description: 'Click Me',
+  								    		  id: '.ميزو11'
+  						  		    	}
+  						  				]
+  						  			},
+  						  	{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'Test',
+  										      title: 'Click Me',
+  									    	  description: 'Click Me',
+  								    		  id: '.ميزو7'
+  						  		    	}
+  						  				]
+  						  			},
+  						  	{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'Test',
+  										      title: 'Click Me',
+  									    	  description: 'Click Me',
+  								    		  id: '.ميزو5'
+  						  		    	}
+  						  				]
+  						  			},
+  						  	{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'Test',
+  										      title: 'Click Me',
+  									    	  description: 'Click Me',
+  								    		  id: '.ميزو3'
+  						  		    	}
+  						  				]
+  						  			},
+  						  	{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'Test',
+  										      title: 'Click Me',
+  									    	  description: 'Click Me',
+  								    		  id: '.ميزو2'
+  						  		    	}
+  						  				]
+  						  			},
+  						  	{
+  						  				highlight_label: 'ON',
+  						  				rows: [
+  						  					{
+  						  		    		header: 'Test',
+  										      title: 'Click Me',
+  									    	  description: 'Click Me',
+  								    		  id: 'ميزو.6'
+  						  		    	}
+  						  				]
+  						  			},
+  						  	
   						  			{
   						  				highlight_label: 'ON',
   						  				rows: [
