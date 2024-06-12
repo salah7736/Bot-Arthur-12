@@ -2,12 +2,13 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
+}//غير ڤينوم و حط اسم بوتك
 let pesan = args.join` `
-let oi = ` ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁 ${pesan}`
+let oi = ` ❯⏐ 𝐵𝛩𝑇 𝐴𝑅𝑇𝐻𝑈𝑅 ${pesan}`
 let teks = `*「✧|────✦❯l◇l❮✦────|✧」*\n*✦┃تـفـاعـلوا↞┃✦* \n\n ${oi}\n\n*┇الجروب┇↞❮ ❄️ ❯*\n*「✧|────✦❯◇❮✦────|✧」*\n*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n`
 for (let mem of participants) {
-teks += `*˼‏🔱˹┆↵* @${mem.id.split('@')[0]}\n`}
-teks += `*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n> ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁\n\n`
+teks += `*˼‏💎˹┆↵* @${mem.id.split('@')[0]}\n`}
+teks += `*✧━━ • ━ 「 ✤ 」 ━ • ━━✧*\n> ❯⏐ 𝐵𝛩𝑇 𝐴𝑅𝑇𝐻𝑈𝑅\n\n`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
 handler.help = ['tagall <mesaje>','invocar <mesaje>']
