@@ -2,9 +2,10 @@ let handler = async (m, { conn }) => {
     let user = global.db.data.users[m.sender];
     let name = conn.getName(m.sender);
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
-    let message = `${taguser}\n*✿┇اهـلًا مـعـك بـوت مـيـزوهـارا للمـساعـدة اكــتب الـاوامـر او تـضيف البـوت اكتـب المـطور ┇✿*`;
+    let message = `*˼💧˹┊「 مرحبآ ↫ ${taguser}」*\n> اهـلا مـعـك بـوت بـذكاء اصـطـناعـي\n> لـلمـساعدة اكتب الـاوامـر او شـرح\n> والـاضـافات الـبـوت اكـتـب الـمـطـور\n*✧━━ • ━ 「  ✤  」 ━ • ━━✧*
+\n> ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁`;
 
-    conn.sendFile(m.chat, 'https://telegra.ph/file/fcb03ca7c027822e545e2.jpg', 'image.jpg', message, m);
+    conn.sendFile(m.chat, 'https://telegra.ph/file/e0349308c104834f484cd.jpg', 'image.jpg', message, m);
 };
 
 handler.customPrefix = /^(بوت|اوامر|الاوامر)$/i;
