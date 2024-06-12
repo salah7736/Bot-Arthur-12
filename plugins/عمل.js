@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
-    if (!text) throw " ┃منشن الشخص الذي تريد معرفة عمله┃↞⎔"
+    if (!text) throw " *┃منشن الشخص الذي تريد معرفة عمله┃↞⎔*"
     const mentionedUser = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : args[2] ? (args[2].replace(/[@ .+-]/g, '') + '@s.whatsapp.net') : ''
  const userChar = [
       "سارق",
@@ -46,14 +46,14 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
     const userCharacterSeletion =
       userChar[Math.floor(Math.random() * userChar.length)]
 
-    let message = `عمل @${mentionedUser.split("@")[0]}\n عـمـلـك هـو  ↞┃🦋┃ *${userCharacterSeletion}*`
+    let message = `عمل @${mentionedUser.split("@")[0]}\n عـمـلـك هـو  ↞┃🚫┃ *${userCharacterSeletion}*`
     
     conn.sendMessage(m.chat, { text: message, mentions: [mentionedUser] }, { quoted: m })
     
 }
 handler.help = ["character @tag"]
 handler.tags = ['fun']
-handler.command = /^(عمل|عملي)/i
+handler.command = /^(شغل|عملي)/i
 
 export default handler 
 /*
