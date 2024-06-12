@@ -53,7 +53,7 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
 }
 handler.help = ["character @tag"]
 handler.tags = ['fun']
-handler.command = /^(شغل|عملي)/i
+handler.command = /^(عمل|عملي)/i
 
 export default handler 
 /*
