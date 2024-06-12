@@ -11,22 +11,22 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['967773685143', '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁', true],
-  ['967773685143', '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁', true],
-  ['967773685143', '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁', true],
+  ['967773685143', '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁💧', true],
+  ['967773685143', '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁💧', true],
+  ['967773685143', '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁💧', true],
   ['967773685143'],
   ['967773685143'],
   ['+967773685143']
 ];
 
-global.suittag = ['967773685143'];
-global.prems = ['967773685143'];
-global.packname = 'Sticker';
-global.author = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
-global.wm = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
-global.titulowm = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
-global.titulowm2 = `𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀`
-global.igfg = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
+global.suittag = ['967773685143💧'];
+global.prems = ['967773685143💧'];
+global.packname = '❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁💧';
+global.author = '> ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁💧';
+global.wm = '> ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁💧';
+global.titulowm = '> ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁💧';
+global.titulowm2 = `> ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁💧`
+global.igfg = '> ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁';
 global.wait = '*[ ⏳ ]  _جاري التحميل..._*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -51,8 +51,8 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
-global.gt = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
-global.mysticbot = '𝑀𝐼𝑍𝑈𝐻𝐴𝑅𝐴🎀';
+global.gt = '> ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁💧';
+global.mysticbot = '> ❯⏐ 𝐵𝛩𝑇 𝐸𝑅𝑺𝑁💧';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[ ⏳ ]  _جاري التحميل..._*';
