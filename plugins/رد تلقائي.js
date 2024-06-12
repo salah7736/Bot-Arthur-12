@@ -4,7 +4,7 @@ let handler = m => m;
 
    let chat = global.db.data.chats[m.chat]; 
    let responses; 
-   if (/^ميزوهارا$/i.test(m.text)) { 
+   if (/^مايزوهارا$/i.test(m.text)) { 
      responses = [ 
  '*عيون ميزوهارا*'  
      ]; 
@@ -24,7 +24,7 @@ let handler = m => m;
      responses = [ 
 '*احسن ريحنا منك*'
    ]; 
-   }else if (/^بحبك$/i.test(m.text)) { 
+   }else if (/^بحابك$/i.test(m.text)) { 
      responses = [ 
 '*حبك برص*',
 '*ورع🤭*',
@@ -59,18 +59,18 @@ let handler = m => m;
        'راقب رقمك',  
 
      ];
-     }else if (/^منوره|منور$/i.test(m.text)) { 
+     }else if (/^منواره|امنور$/i.test(m.text)) { 
      responses = [ 
        '*ادري🤧*',
       '*لا دا نورك*',
 
      ];
-     }else if (/^بوت زق|مادخلك$/i.test(m.text)) { 
+     }else if (/^بوات زق|مادخالك$/i.test(m.text)) { 
      responses = [ 
        'ها وش فيك معي؟',  
 
      ];
-     }else if (/^ياكلب|كل زق$/i.test(m.text)) { 
+     }else if (/^ياكلاب|كل زق$/i.test(m.text)) { 
      responses = [ 
        '*اصص عشان مضربكش عيب الكلام ده*',  
 
