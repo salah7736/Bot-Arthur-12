@@ -12,7 +12,7 @@ let handler = async (m, { conn }) => {
     *「✧|───✦❯┇💎┇❮✦───|✧」* 
 *⎔↞┃الاسم🀄 ↞* ${username} 
 *⎔↞┃اسم🎖 ↞* ${registered ? name : ''}
-*⎔↞┃منشن🎀 ↞* @${who.replace(/@.+/, '')}
+*⎔↞┃منشن☘️ ↞* @${who.replace(/@.+/, '')}
 *⎔↞┃رقم📮 ↞* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 *⎔↞┃رابط⚡️ ↞* https://wa.me/${who.split`@`[0]}
 *⎔↞┃عمر🔍↞* ${registered ? age : ''} Tahun
