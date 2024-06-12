@@ -18,7 +18,7 @@ export async function before(m, { conn }) {
  *⎔↞┃الـرتـبـة⚔️↞ ${user.role}┃*
 
 *「✧|───✦❯┇💎┇❮✦───|✧」*
- _لتـعـطـبـل الـمـيـزة_
+ _لتـعـطـيـل الـمـيـزة_
 _*/off autolevelup*_
 	`.trim()
     )
