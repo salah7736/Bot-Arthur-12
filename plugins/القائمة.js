@@ -6,7 +6,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const mentionId = m.key.participant || m.key.remoteJid;
 
     if (device !== 'desktop' || device !== 'web') {      
-        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/642bf4a98ba2106255e3c.jpg'}}, { upload: conn.waUploadToServer })
+        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/ddd5c815bcfe60c6fd99d.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: ``.trim() },
             footer: { text: `> جميع الاوامر قم بختيار اي امر🏷️\n> افتح القائمة بالضغط على الزر☘️\n> لا تنسى قبل كل امر تحط نقطة❗\n> راسل المطور اذا حدث اي عطل🧿\n✦━━━━━━━ •➢• ━━━━━━━✦`.trim() },  
